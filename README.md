@@ -1,50 +1,29 @@
-# Bubble UI Screenshot Template
+# koobubble 기본틀
 
-업로드한 참고 스크린샷의 레이아웃을 바탕으로 만든 정적 백업 템플릿입니다.
+GitHub에 아래 파일을 모두 같은 위치에 올립니다.
 
-## 평소 수정하는 곳
-- `data.js`: 이름 / 상태문구 / 프로필 / 배경 / 메시지
-- `images/`: 프로필, 배경, 채팅 사진
+- index.html
+- style.css
+- app.js
+- data.js
+- background.svg
+- profile.jpg ← 직접 추가할 프로필 사진
 
-## 프로필
-`images/profile.jpg` 업로드 후:
-```js
-profile: "images/profile.jpg"
-```
+## 중요한 점
 
-## 배경
-`images/background.jpg` 업로드 후:
-```js
-background: "images/background.jpg"
-```
+`profile.jpg`는 상단 채팅방 제목용 이미지가 아닙니다.
 
-## 텍스트 메시지
-```js
-{
-  date: "2026-08-29",
-  time: "19:02",
-  type: "text",
-  text: "오늘 뭐해"
-},
-```
+실제 메시지가 생겼을 때:
 
-줄바꿈:
-```js
-text: "첫째 줄\n둘째 줄"
-```
+[프로필 사진] 건일 선배
+              말풍선
 
-## 사진 메시지
-```js
-{
-  date: "2026-08-29",
-  time: "19:05",
-  type: "image",
-  src: "images/260829_01.jpg"
-},
-```
+형태로 표시되는 발신자 프로필입니다.
 
-## GitHub Pages
-Repository → Settings → Pages
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /(root)
+상단은:
+- 제목: 건일 선배
+- 상태: 파란 하트 + 980724
+
+로 표시됩니다.
+
+현재 `MESSAGES = [];` 이므로 채팅 내용은 비어 있습니다.

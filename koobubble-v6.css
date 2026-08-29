@@ -1,5 +1,5 @@
 :root{
-  --header-h:122px;
+  --header-h:100px;
   --composer-h:76px;
   --chat-bg:#eceeef;
   --artist-bubble:#ffffff;
@@ -187,7 +187,7 @@ button,input,textarea{font:inherit}
 @media(max-width:600px){
   body{display:block;background:var(--chat-bg)}
   .phone{width:100vw;height:100dvh;aspect-ratio:auto;box-shadow:none}
-  :root{--header-h:140px;--composer-h:78px}
+  :root{--header-h:100px;--composer-h:78px}
   .header-center{top:17px;width:64%}
   .room-title{font-size:24px}
   .room-status{margin-top:30px;font-size:15px}

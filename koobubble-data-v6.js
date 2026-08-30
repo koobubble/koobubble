@@ -263,85 +263,145 @@ const MESSAGES = [
 },
 {
   date: "2022-10-22",
-  time: "12:36",
+  time: "00:36",
   type: "text",
   text: "@@@"
 },
 {
   date: "2022-10-22",
-  time: "12:36",
+  time: "00:36",
   type: "text",
   text: "인스트 샘플러 봤어??"
 },
 {
   date: "2022-10-22",
-  time: "12:38",
+  time: "00:38",
   type: "text",
   text: "ㅋㅋㅋㅋㅋㅋㅋ"
 },
 {
   date: "2022-10-22",
-  time: "12:38",
+  time: "00:38",
   type: "text",
   text: "어떤 곡이 젤 맘에들어?!"
 },
 {
   date: "2022-10-22",
-  time: "12:44",
+  time: "00:44",
   type: "text",
   text: "오호"
 },
 {
   date: "2022-10-22",
-  time: "12:44",
+  time: "00:44",
   type: "text",
   text: "내 최애곡은"
 },
 {
   date: "2022-10-22",
-  time: "12:44",
+  time: "00:44",
   type: "text",
   text: "비밀~"
 },
 {
   date: "2022-10-22",
-  time: "12:47",
+  time: "00:47",
   type: "text",
   text: "난 걍"
 },
 {
   date: "2022-10-22",
-  time: "12:44",
+  time: "00:44",
   type: "text",
   text: "내 최애곡은"
 },{
   date: "2022-10-22",
-  time: "12:47",
+  time: "00:47",
   type: "text",
   text: "울 @@@가 좋아하는 곡이"
 },
 {
   date: "2022-10-22",
-  time: "12:47",
+  time: "00:47",
   type: "text",
   text: "내 최애곡이징"
 },
 {
   date: "2022-10-22",
-  time: "12:54",
+  time: "00:54",
   type: "text",
   text: "ㅋㅋㅋㅋ"
 },
 {
   date: "2022-10-22",
-  time: "12:54",
+  time: "00:54",
   type: "text",
   text: "나 자기전에 들을 노래 하나 추천해주랑"
 },
 {
   date: "2022-10-22",
-  time: "12:59",
+  time: "00:59",
   type: "text",
   text: "오옹"
+},
+  {
+  date: "2022-10-22",
+  time: "12:59",
+  type: "text",
+  text: "자기전에 계속 틀어놔야겟다"
+},
+{
+  date: "2022-10-22",
+  time: "01:03",
+  type: "text",
+  text: "자기전에 계속 틀어놔야겟다"
+},
+{
+  date: "2022-10-22",
+  time: "01:03",
+  type: "text",
+  text: "음 나는"
+},
+{
+  date: "2022-10-22",
+  time: "01:03",
+  type: "text",
+  text: "HYBS - Dancing with my phone"
+},
+{
+  date: "2022-10-22",
+  time: "01:03",
+  type: "text",
+  text: "요즘 매일 듣는 노래야"
+},
+{
+  date: "2022-10-22",
+  time: "01:08",
+  type: "text",
+  text: "ㅋㅋㅋ 같이 좋아하는 노래 공유 많이하자"
+},
+{
+  date: "2022-10-22",
+  time: "01:09",
+  type: "text",
+  text: "John Mayer - New Light"
+},
+{
+  date: "2022-10-22",
+  time: "01:09",
+  type: "text",
+  text: "이거는 지금 듣지 말고 꼭 내일 아침에 들어!"
+},
+{
+  date: "2022-10-22",
+  time: "01:09",
+  type: "text",
+  text: "약속"
+},
+{
+  date: "2022-10-22",
+  time: "01:51",
+  type: "drive-video",
+  driveId: "10ncTwxdoQzLDjAyMfeJO_Ki3a6JOOinc"
 }
 ];

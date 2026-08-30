@@ -176,5 +176,11 @@ const MESSAGES = [
   time: "22:16",
   type: "text",
   text: "필리핀 런즈들 에너지 진짜 짱이더라"
-}  
+},
+  {
+  date: "2022-10-21",
+  time: "22:23",
+  type: "drive-image",
+  driveId: "1cyDlV_gj7-MUNBzAvfsGaBCuDb2yarHI"
+}
 ];

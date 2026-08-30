@@ -182,5 +182,166 @@ const MESSAGES = [
   time: "22:23",
   type: "drive-image",
   driveId: "1cyDlV_gj7-MUNBzAvfsGaBCuDb2yarHI"
+},
+  {
+  date: "2022-10-21",
+  time: "22:24",
+  type: "text",
+  text: "ㅋㅋㅋ 첫 호텔방 셀카닷"
+},
+{
+  date: "2022-10-21",
+  time: "22:28",
+  type: "text",
+  text: "@@@는 뭐하고있었어!"
+},
+{
+  date: "2022-10-21",
+  time: "22:40",
+  type: "text",
+  text: "ㅜㅜㅜ"
+},
+{
+  date: "2022-10-21",
+  time: "22:40",
+  type: "text",
+  text: "오늘도 고생 많았어"
+},
+{
+  date: "2022-10-21",
+  time: "22:52",
+  type: "text",
+  text: "나 새로 생긴 버킷리스트중 하나가"
+},
+{
+  date: "2022-10-21",
+  time: "22:52",
+  type: "text",
+  text: "전 세계 각 나라 과자 한번씩 다 먹어보는건데"
+},
+{
+  date: "2022-10-21",
+  time: "22:52",
+  type: "text",
+  text: "필리핀은 어떤 과자가 맛있는지 알아?!"
+},
+{
+  date: "2022-10-21",
+  time: "22:54",
+  type: "text",
+  text: "나도 몰라서 혹시 알까봐 물어본거였는데... 하핳"
+},
+{
+  date: "2022-10-21",
+  time: "22:54",
+  type: "text",
+  text: "머쓱"
+},
+{
+  date: "2022-10-21",
+  time: "22:24",
+  type: "text",
+  text: "머쓱타드"
+},
+{
+  date: "2022-10-21",
+  time: "22:56",
+  type: "text",
+  text: "ㅋㅋㅋㅋㅋㅋ"
+},
+{
+  date: "2022-10-21",
+  time: "22:56",
+  type: "text",
+  text: "내일 마트 갈건데"
+},
+{
+  date: "2022-10-21",
+  time: "22:56",
+  type: "text",
+  text: "가서 한번 맛있어보이는것들 다 사올게"
+},
+{
+  date: "2022-10-22",
+  time: "12:36",
+  type: "text",
+  text: "@@@"
+},
+{
+  date: "2022-10-22",
+  time: "12:36",
+  type: "text",
+  text: "인스트 샘플러 봤어??"
+},
+{
+  date: "2022-10-22",
+  time: "12:38",
+  type: "text",
+  text: "ㅋㅋㅋㅋㅋㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "12:38",
+  type: "text",
+  text: "어떤 곡이 젤 맘에들어?!"
+},
+{
+  date: "2022-10-22",
+  time: "12:44",
+  type: "text",
+  text: "오호"
+},
+{
+  date: "2022-10-22",
+  time: "12:44",
+  type: "text",
+  text: "내 최애곡은"
+},
+{
+  date: "2022-10-22",
+  time: "12:44",
+  type: "text",
+  text: "비밀~"
+},
+{
+  date: "2022-10-22",
+  time: "12:47",
+  type: "text",
+  text: "난 걍"
+},
+{
+  date: "2022-10-22",
+  time: "12:44",
+  type: "text",
+  text: "내 최애곡은"
+},{
+  date: "2022-10-22",
+  time: "12:47",
+  type: "text",
+  text: "울 @@@가 좋아하는 곡이"
+},
+{
+  date: "2022-10-22",
+  time: "12:47",
+  type: "text",
+  text: "내 최애곡이징"
+},
+{
+  date: "2022-10-22",
+  time: "12:54",
+  type: "text",
+  text: "ㅋㅋㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "12:54",
+  type: "text",
+  text: "나 자기전에 들을 노래 하나 추천해주랑"
+},
+{
+  date: "2022-10-22",
+  time: "12:59",
+  type: "text",
+  text: "오옹"
 }
 ];

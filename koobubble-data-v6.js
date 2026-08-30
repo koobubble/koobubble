@@ -403,5 +403,119 @@ const MESSAGES = [
   time: "01:51",
   type: "drive-video",
   driveId: "10ncTwxdoQzLDjAyMfeJO_Ki3a6JOOinc"
+},
+  {
+  date: "2022-10-22",
+  time: "11:50",
+  type: "text",
+  text: "하이하이"
+},
+{
+  date: "2022-10-22",
+  time: "11:50",
+  type: "text",
+  text: "굿모닝"
+},
+{
+  date: "2022-10-22",
+  time: "11:50",
+  type: "text",
+  text: "노래 들어봤엉?!"
+},
+{
+  date: "2022-10-22",
+  time: "11:54",
+  type: "text",
+  text: "ㅎㅎ 어때?"
+},
+{
+  date: "2022-10-22",
+  time: "11:54",
+  type: "text",
+  text: "요것도 요즘 매일 듣는 노래얌"
+},
+{
+  date: "2022-10-22",
+  time: "11:57",
+  type: "text",
+  text: "ㅋㅋㅋ 나 오늘은"
+},
+{
+  date: "2022-10-22",
+  time: "11:57",
+  type: "text",
+  text: "호텔에서 곡 작업도 좀 하구"
+},
+{
+  date: "2022-10-22",
+  time: "11:57",
+  type: "text",
+  text: "가사도 쓰구"
+},
+{
+  date: "2022-10-22",
+  time: "11:57",
+  type: "text",
+  text: "마트도 다녀오구 하려고!"
+},
+{
+  date: "2022-10-22",
+  time: "12:00",
+  type: "text",
+  text: "ㅋㅋㅋㅋ 응응 과자 사면 뭐 샀는지\n알려줄게!"
+},
+{
+  date: "2022-10-22",
+  time: "13:51",
+  type: "text",
+  text: "@@@"
+},
+{
+  date: "2022-10-22",
+  time: "13:51",
+  type: "text",
+  text: "머해"
+},
+{
+  date: "2022-10-22",
+  time: "13:52",
+  type: "text",
+  text: "ㅋㅋㅋㅋㅋ 나도 @@@ 생각중~"
+},
+  {
+  date: "2022-10-22",
+  time: "14:04",
+  type: "drive-image",
+  driveId: "19e9F9c0p1pgg5rwEN1ckkfbWaWT4k7cy"
+},
+{
+  date: "2022-10-22",
+  time: "14:04",
+  type: "text",
+  text: "운동하구왔엉"
+},
+{
+  date: "2022-10-22",
+  time: "15:03",
+  type: "drive-image",
+  driveId: "13T3R4l42mPViCM6C3uwW6eXM8nsH1xbn"
+},
+{
+  date: "2022-10-22",
+  time: "15:04",
+  type: "text",
+  text: "짜잔"
+},
+{
+  date: "2022-10-22",
+  time: "15:04",
+  type: "text",
+  text: "마트 다녀왔당"
+},
+{
+  date: "2022-10-22",
+  time: "15:40",
+  type: "drive-image",
+  driveId: "1izDaQ0fN_1tnuRI6WJvwAaywo1gLZwgg"
 }
 ];

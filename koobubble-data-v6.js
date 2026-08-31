@@ -517,5 +517,71 @@ const MESSAGES = [
   time: "15:40",
   type: "drive-image",
   driveId: "1izDaQ0fN_1tnuRI6WJvwAaywo1gLZwgg"
+},
+  {
+  date: "2022-10-22",
+  time: "15:40",
+  type: "drive-image",
+  driveId: "1QQhJ7AApyLM72Vyw_pqZaeIGrUoq1jV1"
+},
+{
+  date: "2022-10-22",
+  time: "15:40",
+  type: "text",
+  text: "요거 맛있당"
+},
+{
+  date: "2022-10-22",
+  time: "15:42",
+  type: "text",
+  text: "바닐라 콜라 사려고 할때"
+},
+{
+  date: "2022-10-22",
+  time: "15:42",
+  type: "text",
+  text: "옆에 사람들이 다 별로라고 말렸는데"
+},
+{
+  date: "2022-10-22",
+  time: "15:42",
+  type: "text",
+  text: "나는 줏대있게 직접 마셔보고 판단하겠다고 말하고 샀지 ㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "15:44",
+  type: "text",
+  text: "그리고 난 진짜 맛있는거 같아"
+},
+{
+  date: "2022-10-22",
+  time: "15:44",
+  type: "text",
+  text: "미국 살때 마셨던 cream soda 맛이야"
+},
+{
+  date: "2022-10-22",
+  time: "15:46",
+  type: "text",
+  text: "크림소다 진짜 맛있어! 나중에 미국가면 꼭 먹어봐!!"
+},
+{
+  date: "2022-10-22",
+  time: "15:47",
+  type: "text",
+  text: "혹시라도 뉴욕이나 보스턴 가게되면 알려줘"
+},
+{
+  date: "2022-10-22",
+  time: "15:47",
+  type: "text",
+  text: "내가 맛있는곳들, 꼭 가봐야하는 곳들 다 알려줄게"
+},
+{
+  date: "2022-10-22",
+  time: "15:47",
+  type: "text",
+  text: "내 페이보릿 스팟들도 ㅋㅋㅋ"
 }
 ];

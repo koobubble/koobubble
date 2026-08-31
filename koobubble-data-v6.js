@@ -583,5 +583,389 @@ const MESSAGES = [
   time: "15:47",
   type: "text",
   text: "내 페이보릿 스팟들도 ㅋㅋㅋ"
+},
+  {
+  date: "2022-10-22",
+  time: "16:13",
+  type: "drive-image",
+  driveId: "1QKKoJdPj0ycJX-xqEhsHP3BlvXGyBCTa"
+},
+{
+  date: "2022-10-22",
+  time: "16:13",
+  type: "text",
+  text: "짠"
+},
+{
+  date: "2022-10-22",
+  time: "16:13",
+  type: "text",
+  text: "옛날에 학교다닐때 날씨 좋았던 사진이당"
+},
+{
+  date: "2022-10-22",
+  time: "16:23",
+  type: "drive-image",
+  driveId: "14eszlJBFm7jm3QdADMKeKxGCEd5tQ3T7"
+},
+{
+  date: "2022-10-22",
+  time: "16:23",
+  type: "text",
+  text: "이건 구름 되게 신기했던 날 찍은 사진!! ㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "16:24",
+  type: "text",
+  text: "응응 자취방에서 학교가는길에 찍은 사진!"
+},
+{
+  date: "2022-10-22",
+  time: "16:25",
+  type: "text",
+  text: "나 학교 바로 옆에 살았거든 ㅋㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "16:26",
+  type: "text",
+  text: "자취 꿀팁??? 음"
+},
+{
+  date: "2022-10-22",
+  time: "16:26",
+  type: "text",
+  text: "빨래하고 방청소하는 날을 정해주는게 좋아"
+},
+{
+  date: "2022-10-22",
+  time: "16:26",
+  type: "text",
+  text: "안그러면 맨날 미루게 된당 ㅋㅋㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "16:27",
+  type: "text",
+  text: "사진들은 천천히 풀게 ㅎㅎ"
+},
+{
+  date: "2022-10-22",
+  time: "16:27",
+  type: "text",
+  text: "한번에 다 보여주면"
+},
+{
+  date: "2022-10-22",
+  time: "16:27",
+  type: "text",
+  text: "재미없어~"
+},
+{
+  date: "2022-10-22",
+  time: "17:26",
+  type: "text",
+  text: "ㅋㅋㅋㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "17:26",
+  type: "text",
+  text: "나 예전에 자취할때"
+},
+{
+  date: "2022-10-22",
+  time: "17:26",
+  type: "text",
+  text: "방 진짜 예쁘게 꾸미고 살았는데"
+},
+{
+  date: "2022-10-22",
+  time: "17:26",
+  type: "text",
+  text: "나중에 방 사진 보여줄게"
+},
+{
+  date: "2022-10-22",
+  time: "17:36",
+  type: "text",
+  text: "응응 ㅋㅋ 나름 aesthetic 하게 이쁘게 꾸몄다구~"
+},
+  {
+  date: "2022-10-22",
+  time: "20:07",
+  type: "drive-image",
+  driveId: "1oaDZQj8EUm6ufI4q1T_OqWS_6SOnH1zm"
+},
+{
+  date: "2022-10-22",
+  time: "20:07",
+  type: "text",
+  text: "저녁먹구왔당"
+},
+{
+  date: "2022-10-22",
+  time: "20:07",
+  type: "text",
+  text: "가운데 누구게 ㅋㅋㅋ"
+},
+{
+  date: "2022-10-22",
+  time: "20:21",
+  type: "text",
+  text: "ㅋㅋㅋ 정답은 정수"
+},
+{
+  date: "2022-10-22",
+  time: "20:21",
+  type: "text",
+  text: "귀엽게 나왔는데 생얼 부끄럽다구 가리구 올려달래 ㅎㅎ"
+},
+  {
+  date: "2022-10-23",
+  time: "00:00",
+  type: "text",
+  text: "@@@"
+},
+{
+  date: "2022-10-23",
+  time: "00:00",
+  type: "text",
+  text: "자?"
+},
+{
+  date: "2022-10-23",
+  time: "00:02",
+  type: "text",
+  text: "ㅋㅋㅋㅋ 늦었는데 안자고 뭐해"
+},
+{
+  date: "2022-10-23",
+  time: "00:54",
+  type: "text",
+  text: "늦었는데 얼렁 자 ㅎㅎ"
+},
+{
+  date: "2022-10-23",
+  time: "00:54",
+  type: "text",
+  text: "늦게자면 키 안큰다"
+},
+{
+  date: "2022-10-23",
+  time: "01:36",
+  type: "text",
+  text: "ㅎㅎ 지금쯤이면 자고있겠구먼"
+},
+{
+  date: "2022-10-23",
+  time: "01:36",
+  type: "text",
+  text: "@@@ 자고 일어나면 나 한국 도착해있을거야"
+},
+{
+  date: "2022-10-23",
+  time: "01:36",
+  type: "text",
+  text: "잘자 🌙"
+},
+{
+  date: "2022-10-23",
+  time: "06:02",
+  type: "text",
+  text: "오빠 한국 왔당"
+},
+{
+  date: "2022-10-23",
+  time: "06:02",
+  type: "text",
+  text: "새벽이라 피곤할텐데 공항까지 오구 그래 참"
+},
+{
+  date: "2022-10-23",
+  time: "06:02",
+  type: "text",
+  text: "얼른 조심히 들어가! 잠도 좀 자구 🌙"
+},
+{
+  date: "2022-10-23",
+  time: "14:46",
+  type: "text",
+  text: "@@@"
+},
+{
+  date: "2022-10-23",
+  time: "14:46",
+  type: "text",
+  text: "뭐하닝"
+},
+{
+  date: "2022-10-23",
+  time: "14:49",
+  type: "text",
+  text: "ㅋㅋㅋ 난 방 청소하다가 과자먹고있었어"
+},
+{
+  date: "2022-10-23",
+  time: "14:49",
+  type: "drive-image",
+  driveId: "1yLmorNP5ugjn8uyOxkgKZFLmlZ5nNQTW"
+},
+{
+  date: "2022-10-23",
+  time: "14:49",
+  type: "text",
+  text: "이거 완전 맛있음 🔥🔥"
+},
+{
+  date: "2022-10-23",
+  time: "14:57",
+  type: "text",
+  text: "ㅋㅋㅋ 뒤에 포스터는 연습생때부터 갖고있던거야"
+},
+{
+  date: "2022-10-23",
+  time: "18:05",
+  type: "text",
+  text: "@@@"
+},
+{
+  date: "2022-10-23",
+  time: "18:05",
+  type: "text",
+  text: "저녁 먹었어?"
+},
+{
+  date: "2022-10-23",
+  time: "18:08",
+  type: "text",
+  text: "나두 아직 안먹었오"
+},
+{
+  date: "2022-10-23",
+  time: "18:08",
+  type: "text",
+  text: "뭘 먹어야 잘 먹었다고 소문이 날까?"
+},
+{
+  date: "2022-10-23",
+  time: "19:33",
+  type: "text",
+  text: "ㅋㅋㅋ 결국 고민하다가"
+},
+{
+  date: "2022-10-23",
+  time: "19:33",
+  type: "text",
+  text: "국밥먹구 왔당"
+},
+{
+  date: "2022-10-23",
+  time: "19:33",
+  type: "text",
+  text: "수육 국밥 !!"
+},
+{
+  date: "2022-10-23",
+  time: "19:34",
+  type: "text",
+  text: "나 원래 순대국 더 좋아하는데"
+},
+{
+  date: "2022-10-23",
+  time: "19:34",
+  type: "text",
+  text: "오늘은 수육국밥 먹었어 ㅎㅎ"
+},
+{
+  date: "2022-10-23",
+  time: "19:37",
+  type: "text",
+  text: "예전에 보스턴 살때"
+},
+{
+  date: "2022-10-23",
+  time: "19:37",
+  type: "text",
+  text: "한국 음식 웬만한건 다 팔았거든"
+},
+{
+  date: "2022-10-23",
+  time: "19:37",
+  type: "text",
+  text: "근데 순대국만 없어서"
+},
+{
+  date: "2022-10-23",
+  time: "19:37",
+  type: "text",
+  text: "한국 들어오자마자 먹었던 음식이 순대국이야 ㅋㅋ"
+},
+{
+  date: "2022-10-23",
+  time: "20:37",
+  type: "text",
+  text: "너는 저녁 뭐 먹었엉"
+},
+{
+  date: "2022-10-23",
+  time: "21:02",
+  type: "text",
+  text: "ㅋㅋㅋㅋ 맛있는거 먹었네"
+},
+{
+  date: "2022-10-23",
+  time: "21:04",
+  type: "text",
+  text: "좀있으면 내 티저 올라온다"
+},
+{
+  date: "2022-10-23",
+  time: "21:04",
+  type: "text",
+  text: "두근두근"
+},
+{
+  date: "2022-10-23",
+  time: "21:25",
+  type: "text",
+  text: "ㅎㅎ 기다리는 동안 들을 노래 하나 추천!"
+},
+{
+  date: "2022-10-23",
+  time: "21:25",
+  type: "text",
+  text: "HYBS - Killer"
+},
+{
+  date: "2022-10-23",
+  time: "21:25",
+  type: "text",
+  text: "이 노래도 최근에 꽂혀서 계속 듣는중 😎"
+},
+{
+  date: "2022-10-23",
+  time: "23:43",
+  type: "text",
+  text: "후 두근두근"
+},
+{
+  date: "2022-10-23",
+  time: "23:43",
+  type: "text",
+  text: "30분도 안남았다!"
+},
+{
+  date: "2022-10-23",
+  time: "23:44",
+  type: "text",
+  text: "ㅋㅋㅋㅋ 너무 기대하지마"
+},
+{
+  date: "2022-10-23",
+  time: "23:44",
+  type: "text",
+  text: "기대가 크면 실망도 큰 법!"
 }
 ];

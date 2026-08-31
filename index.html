@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>건일 선배 - Bubble Backup</title>
-  <link rel="stylesheet" href="koobubble-v9.css" />
+  <link rel="stylesheet" href="koobubble-v11.css" />
 </head>
 <body>
 
@@ -33,6 +33,41 @@
       <button id="nicknameSave" class="nickname-save" type="button">확인</button>
     </div>
   </div>
+
+
+  <div class="more-menu" id="moreMenu" aria-hidden="true">
+    <button id="editNicknameBtn" type="button">
+      <span class="more-menu-icon" aria-hidden="true">✎</span>
+      <span>닉네임 수정</span>
+    </button>
+    <button id="openMediaBtn" type="button">
+      <span class="more-menu-icon" aria-hidden="true">▦</span>
+      <span>미디어 모아보기</span>
+    </button>
+  </div>
+
+  <section class="media-gallery-modal" id="mediaGalleryModal" aria-hidden="true">
+    <header class="media-gallery-header">
+      <button class="media-gallery-back" id="mediaGalleryClose" type="button" aria-label="닫기">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15 4L7 12l8 8"/>
+        </svg>
+      </button>
+      <div class="media-gallery-title-wrap">
+        <div class="media-gallery-title">미디어 모아보기</div>
+        <div class="media-gallery-count" id="mediaGalleryCount">0개</div>
+      </div>
+    </header>
+
+    <div class="media-gallery-tabs" role="tablist" aria-label="미디어 종류">
+      <button class="media-tab active" type="button" data-media-filter="all">전체</button>
+      <button class="media-tab" type="button" data-media-filter="image">사진</button>
+      <button class="media-tab" type="button" data-media-filter="video">영상</button>
+    </div>
+
+    <div class="media-gallery-grid" id="mediaGalleryGrid"></div>
+    <div class="media-gallery-empty" id="mediaGalleryEmpty">아직 저장된 미디어가 없어</div>
+  </section>
 
   <div class="phone" id="phone">
     <header class="header">
@@ -102,6 +137,6 @@
   </div>
 
   <script src="koobubble-data-v6.js"></script>
-  <script src="koobubble-app-v9.js"></script>
+  <script src="koobubble-app-v11.js"></script>
 </body>
 </html>

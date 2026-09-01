@@ -18,7 +18,7 @@ const MESSAGES = [
 { date: "2023-07-10", time: "13:20", type: "text", text: "우리 팬미팅 굿즈 뜬거 봤어???" },
 { date: "2023-07-10", time: "13:29", type: "text", text: "ㅎㅎ 목걸이 이쁘지" },
 { date: "2023-07-10", time: "19:16", type: "drive-image", driveId: "19QQehxThh42BpubYbqWkL0DzLtj22gwG" },
-{ date: "2023-07-10", time: "19:16", type: "text", text: "맛져!!" },
+{ date: "2023-07-10", time: "19:16", type: "text", text: "맛저!!" },
 { date: "2023-07-11", time: "09:12", type: "text", text: "굿모닝!" },
 { date: "2023-07-11", time: "09:12", type: "text", text: "비 엄청많이 오네.." },
 { date: "2023-07-11", time: "09:12", type: "text", text: "천둥번개도 엄청 치네.." },

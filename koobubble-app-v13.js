@@ -347,8 +347,8 @@ function render(query="", selectedDate=""){
     const empty=document.createElement("div");
     empty.className="date-divider";
     empty.textContent=dateFilter
-      ? "이 날짜에는 저장된 메시지가 없어"
-      : "검색 결과가 없어";
+      ? "NO RESULT"
+      : "NO RESULT";
     chat.appendChild(empty);
     return;
   }

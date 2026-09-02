@@ -334,7 +334,7 @@ const MESSAGES = [
 { date: "2024-01-02", time: "00:44", type: "text", text: "태국 과자 맛있는게 너무 많아" },
 	{ date: "2024-01-10", time: "16:08", type: "text", text: "하이" },
 { date: "2024-01-10", time: "16:08", type: "text", text: "하우 알 유" },
-{ date: "2024-01-10", time: "16:52", type: "text", text: "보고싶다야..." },
+{ date: "2024-01-10", time: "16:52", type: "text", text: "보고싶다아..." },
 { date: "2024-01-10", time: "16:52", type: "text", text: "못본지 너무 오래됐어 우리.. ㅠㅠ" },
 { date: "2024-01-10", time: "21:08", type: "text", text: "ㅎㅎ 그래도 오늘 라디오 있으니까" },
 { date: "2024-01-10", time: "21:08", type: "text", text: "꼭 보러와줘어~~~~!!! 🙂" },

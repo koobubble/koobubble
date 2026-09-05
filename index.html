@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>건일 선배</title>
-  <link rel="stylesheet" href="koobubble-v13.css" />
+  <link rel="stylesheet" href="koobubble-v13.css?v=13-poll" />
 </head>
 <body>
 
@@ -67,6 +67,20 @@
 
     <div class="media-gallery-grid" id="mediaGalleryGrid"></div>
     <div class="media-gallery-empty" id="mediaGalleryEmpty">아직 저장된 미디어가 없어</div>
+  </section>
+
+  <section class="poll-detail-modal" id="pollDetailModal" aria-hidden="true">
+    <header class="poll-detail-header">
+      <button class="poll-detail-back" id="pollDetailClose" type="button" aria-label="투표 상세보기 닫기">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15 4L7 12l8 8"/>
+        </svg>
+      </button>
+      <div class="poll-detail-title">상세보기</div>
+    </header>
+
+    <div class="poll-detail-scroll" id="pollDetailContent"></div>
+    <button class="poll-detail-action" id="pollDetailAction" type="button" disabled>투표하기</button>
   </section>
 
   <div class="phone" id="phone">
@@ -129,6 +143,6 @@
   </div>
 
   <script src="koobubble-data-v6.js"></script>
-  <script src="koobubble-app-v13.js"></script>
+  <script src="koobubble-app-v13.js?v=13-poll"></script>
 </body>
 </html>

@@ -23,6 +23,10 @@ const mediaGalleryGrid=document.getElementById("mediaGalleryGrid");
 const mediaGalleryCount=document.getElementById("mediaGalleryCount");
 const mediaGalleryEmpty=document.getElementById("mediaGalleryEmpty");
 const mediaTabs=[...document.querySelectorAll(".media-tab")];
+const pollDetailModal=document.getElementById("pollDetailModal");
+const pollDetailClose=document.getElementById("pollDetailClose");
+const pollDetailContent=document.getElementById("pollDetailContent");
+const pollDetailAction=document.getElementById("pollDetailAction");
 
 const STORAGE_KEY_MESSAGES="koobubble_my_messages_v1";
 const STORAGE_KEY_NICKNAME="koobubble_nickname_v1";
@@ -241,6 +245,18 @@ function formatTime(timeStr){
   const hh=h%12||12;
   return `${ap} ${hh}:${String(m).padStart(2,"0")}`;
 }
+function formatPollCreated(msg){
+  if(msg.createdText) return msg.createdText;
+  if(!msg.date) return "";
+  const [y,m,d]=msg.date.split("-").map(Number);
+  const time=formatTime(msg.time||"");
+  return `${String(y).slice(2)}/${m}/${d}${time?` ${time}`:""}`;
+}
+function clampPercent(value){
+  const n=Number(value);
+  if(!Number.isFinite(n)) return 0;
+  return Math.max(0,Math.min(100,n));
+}
 function highlight(text,query){
   const safe=escapeHtml(text);
   if(!query) return safe;
@@ -256,8 +272,18 @@ function saveMyMessages(messages){
 }
 function allMessages(){
   const artist=MESSAGES.map((m,i)=>({
-    ...m,side:"artist",displayText:replaceNicknameToken(m.text||""),
-    sortKey:`${m.date}T${m.time||"00:00"}:00`,stable:i
+    ...m,
+    side:"artist",
+    displayText:replaceNicknameToken(m.text||""),
+    displayQuestion:replaceNicknameToken(m.question||""),
+    displayOptions:Array.isArray(m.options)
+      ?m.options.map(option=>({
+        ...option,
+        displayText:replaceNicknameToken(option.text||"")
+      }))
+      :[],
+    sortKey:`${m.date}T${m.time||"00:00"}:00`,
+    stable:i
   }));
   const mine=loadMyMessages().map((m,i)=>({
     ...m,side:"mine",displayText:m.text||"",
@@ -325,6 +351,82 @@ function closeDriveVideo(){
   document.body.classList.remove("video-modal-open");
 }
 
+function openPollDetail(msg){
+  if(!pollDetailModal||!pollDetailContent) return;
+
+  const options=Array.isArray(msg.displayOptions)?msg.displayOptions:[];
+  const optionsHtml=options.length
+    ?options.map(option=>{
+      const rawPercent=option.percent??"";
+      const hasPercent=rawPercent!=="" && rawPercent!==null && rawPercent!==undefined;
+      const percentLabel=hasPercent?`${escapeHtml(rawPercent)}%`:"";
+      const width=hasPercent?clampPercent(rawPercent):0;
+
+      return `
+        <div class="poll-result-item">
+          <span class="poll-result-radio" aria-hidden="true"></span>
+          <div class="poll-result-card">
+            <div class="poll-result-option">${escapeHtml(option.displayText||"")}</div>
+            <div class="poll-result-meter-row">
+              <div class="poll-result-meter" aria-hidden="true">
+                <span style="width:${width}%"></span>
+              </div>
+              <span class="poll-result-percent">${percentLabel}</span>
+            </div>
+          </div>
+        </div>`;
+    }).join("")
+    :'<div class="poll-result-empty">저장된 투표 결과가 없어</div>';
+
+  pollDetailContent.innerHTML=`
+    <div class="poll-detail-artist">
+      <img class="poll-detail-avatar" src="${SENDER.profile}" alt="${escapeHtml(SENDER.name)} 프로필">
+      <div class="poll-detail-artist-copy">
+        <div class="poll-detail-name-row">
+          <span class="poll-detail-badge">ARTIST</span>
+          <strong>${escapeHtml(SENDER.name)}</strong>
+        </div>
+        <div class="poll-detail-created">${escapeHtml(formatPollCreated(msg))}</div>
+      </div>
+    </div>
+
+    <section class="poll-detail-copy">
+      <div class="poll-detail-question">${escapeHtml(msg.displayQuestion||"")}</div>
+      ${msg.endedText?`<div class="poll-detail-ended">${escapeHtml(msg.endedText)}</div>`:""}
+    </section>
+
+    <div class="poll-results">
+      ${optionsHtml}
+    </div>`;
+
+  if(pollDetailAction){
+    pollDetailAction.textContent=msg.actionText||"투표하기";
+  }
+
+  pollDetailModal.classList.add("show");
+  pollDetailModal.setAttribute("aria-hidden","false");
+  document.body.classList.add("poll-detail-open");
+  if(typeof pollDetailContent.scrollTo==="function"){
+    pollDetailContent.scrollTo({top:0,behavior:"auto"});
+  }else{
+    pollDetailContent.scrollTop=0;
+  }
+}
+
+function closePollDetail(){
+  if(!pollDetailModal) return;
+  pollDetailModal.classList.remove("show");
+  pollDetailModal.setAttribute("aria-hidden","true");
+  document.body.classList.remove("poll-detail-open");
+}
+
+if(pollDetailClose){
+  pollDetailClose.addEventListener("click",closePollDetail);
+}
+if(pollDetailAction){
+  pollDetailAction.addEventListener("click",e=>e.preventDefault());
+}
+
 function render(query="", selectedDate=""){
   chat.innerHTML="";
   const q=query.trim().toLowerCase();
@@ -336,11 +438,19 @@ function render(query="", selectedDate=""){
 
     if(!q) return true;
 
+    const pollOptionText=Array.isArray(msg.displayOptions)
+      ?msg.displayOptions.map(option=>option.displayText||"").join(" ")
+      :"";
+
     return [
       msg.displayText||"",
+      msg.displayQuestion||"",
+      pollOptionText,
+      msg.untilText||"",
+      msg.endedText||"",
       msg.date||"",
       msg.time||""
-    ].some(v=>v.toLowerCase().includes(q));
+    ].some(v=>String(v).toLowerCase().includes(q));
   });
 
   if(!filtered.length){
@@ -504,6 +614,44 @@ function render(query="", selectedDate=""){
         },{once:true});
       }
 
+    }else if(msg.type==="poll"){
+      row.classList.add("poll-row");
+      row.innerHTML=`
+        <button class="poll-card" type="button" aria-label="투표 상세보기">
+          <div class="poll-card-label">
+            <span class="poll-card-bubble-word">bubble</span>
+            <span>투표 시작</span>
+          </div>
+
+          <div class="poll-card-hero" aria-hidden="true">
+            <div class="poll-card-hero-copy">
+              <strong>투표 시작</strong>
+              <span>bubble poll</span>
+            </div>
+
+            <svg class="poll-card-icon" viewBox="0 0 96 96">
+              <circle cx="69" cy="27" r="20" fill="#fff2a8"></circle>
+              <path d="M25 68V43c0-5 4-9 9-9h29c5 0 9 4 9 9v25" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M18 69h62" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"></path>
+              <path d="M44 50l7 7 14-16" fill="none" stroke="#ffd729" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+
+          <div class="poll-card-question">Q. ${highlight(msg.displayQuestion||"",query)}</div>
+          ${msg.untilText?`<div class="poll-card-until">${escapeHtml(msg.untilText)}</div>`:""}
+
+          <div class="poll-card-action">
+            <span>${escapeHtml(msg.cardActionText||"투표하기")}</span>
+            <span class="poll-card-chevron" aria-hidden="true">›</span>
+          </div>
+        </button>
+        <span class="time">${formatTime(msg.time)}</span>`;
+
+      const pollButton=row.querySelector(".poll-card");
+      if(pollButton){
+        pollButton.addEventListener("click",()=>openPollDetail(msg));
+      }
+
     }else if(msg.type==="image"){
       row.innerHTML=`
         <img class="photo ${msg.fit==="contain"?"contain":""}" src="${msg.src}" alt="${escapeHtml(msg.alt||"사진")}">
@@ -573,7 +721,14 @@ clearDateSearch.addEventListener("click",()=>{
 });
 
 document.addEventListener("keydown",e=>{
-  if(e.key==="Escape" && mediaGalleryModal.classList.contains("show")){
+  if(e.key!=="Escape") return;
+
+  if(pollDetailModal && pollDetailModal.classList.contains("show")){
+    closePollDetail();
+    return;
+  }
+
+  if(mediaGalleryModal.classList.contains("show")){
     closeMediaGallery();
   }
 });

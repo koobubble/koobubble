@@ -10,33 +10,19 @@ const SENDER = {
 
 const MESSAGES = [
 	{ date: "2025-08-13", time: "02:01", text: "엘에이 어제 잘 도착했어 ㅎㅎ!" },
-
 { date: "2025-08-13", time: "02:02", type: "drive-image", driveId: "159NY8jd2pYOv-hjnXk48y6whyiOtrlQ0" },
-
 { date: "2025-08-13", time: "02:02", type: "drive-image", driveId: "13f1f59pHbwNpxpWG_VfJzYEJotpH3jUG" },
-
 { date: "2025-08-13", time: "02:02", type: "drive-image", driveId: "16nCFNe8_mJvznVG5zrZxJIb5KZsVvwTp" },
-
 { date: "2025-08-13", time: "02:02", type: "drive-image", driveId: "1YlRs5d4x0Zsgwn6oAzi81pckba7Q59DA" },
-
 { date: "2025-08-13", time: "02:02", type: "drive-image", driveId: "1g7dWLsAFPSLzBo9D6MYcSDnTYSpF5g5P" },
-
 { date: "2025-08-13", time: "02:03", text: "슬슬 내 방 침대가 그리워지기 시작해서" },
-
 { date: "2025-08-13", time: "02:04", text: "@@@는 어떻게 지내구이써!" },
-
 { date: "2025-08-13", time: "02:05", text: "나는 오늘 완전 바쁠예정 ㅠㅜ" },
-
 { date: "2025-08-13", time: "02:06", text: "내일은 그래도 쉴 수 있을거같아 ㅎㅎ" },
-
 { date: "2025-08-13", time: "02:07", text: "집떠난지 2주정도밖에 안됐는데" },
-
 { date: "2025-08-13", time: "02:07", text: "한달은 된거 같은 느낌이야" },
-
 { date: "2025-08-13", time: "02:07", text: "ㅋㅋㅋㅋㅜ" },
-
 { date: "2025-08-13", time: "02:10", text: "ㅎㅎ 이렇게 보고싶어해주고 걱정도해주고 너무 고맙네" },
-
 { date: "2025-08-13", time: "02:12", text: "갑자기 뜬금없지만" },
 
 { date: "2025-08-13", time: "02:12", text: "혹시 @@@ 아틀란타 나중에 가게되면" },

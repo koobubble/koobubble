@@ -9,7 +9,240 @@ const SENDER = {
 };
 
 const MESSAGES = [
-	{ date: "2025-09-21", time: "21:41", text: "하이헤이" },
+	{ date: "2025-10-30", time: "01:47", text: "큰일났어" },
+
+{ date: "2025-10-30", time: "01:47", text: "쇼챔 끝나고 집 오자마자 기절했는데" },
+
+{ date: "2025-10-30", time: "01:47", text: "지금 일어남" },
+
+{ date: "2025-10-30", time: "01:48", text: "아예 아침까지 잘 생각이었는데" },
+
+{ date: "2025-10-30", time: "01:48", text: "이러면 밤낮 완전 바뀌는데.." },
+
+{ date: "2025-10-31", time: "18:23", text: "안뇽~~" },
+
+{ date: "2025-10-31", time: "18:23", text: "벌써 금욜이라니" },
+
+{ date: "2025-10-31", time: "18:24", text: "벌써 11월이라니" },
+
+{ date: "2025-10-31", time: "18:26", type: "drive-image", driveId: "1NpQytazr2CUF2A5cDFjF-LVxbR6gefUc" },
+
+{ date: "2025-10-31", time: "18:26", type: "drive-image", driveId: "1iDSxvUywgwoXr-NC2cqlyzg0nTZOEQLs" },
+
+{ date: "2025-10-31", time: "18:27", text: "라이브클립!!!!" },
+
+{ date: "2025-10-31", time: "18:27", type: "drive-image", driveId: "1qZDvPL6gu2Y1g8biSpH2bo8g-i_c11vw" },
+
+{ date: "2025-10-31", time: "18:27", text: "매니저님한테 더 가까이 와서 찍어달라고 하는 중" },
+
+{ date: "2025-10-31", time: "18:27", text: "ㅋㅋㅋㅋ" },
+
+{ date: "2025-11-01", time: "16:49", type: "drive-image", driveId: "1CXyk48lFFAvfMC3y8qoXxPzahGZzbroI" },
+
+{ date: "2025-11-01", time: "16:49", type: "drive-image", driveId: "1YItijImu53BYJOxGbyrpsvVrZx636sA4" },
+
+{ date: "2025-11-01", time: "16:49", text: "해피토요일~" },
+
+{ date: "2025-11-04", time: "19:06", text: "하이하이" },
+
+{ date: "2025-11-04", time: "19:07", text: "@@@가 좋아할만한걸 갖고왔당" },
+
+{ date: "2025-11-04", time: "19:09", type: "drive-video", driveId: "1qPxx68SdzclFR1QAoJcH0eidJNJ1hfqA" },
+
+{ date: "2025-11-04", time: "19:09", text: "짜잔" },
+
+{ date: "2025-11-04", time: "19:14", type: "drive-video", driveId: "13emabjRwm17Yd2paYtid8ajPrfOAkJ7C" },
+
+{ date: "2025-11-04", time: "19:14", text: "짜자잔" },
+
+{ date: "2025-11-04", time: "19:27", text: "ㅋㅋㅋㅋ 저날 착장이랑 헤메도 다 너무 좋아" },
+
+{ date: "2025-11-04", time: "19:29", type: "drive-image", driveId: "1qPxx68SdzclFR1QAoJcH0eidJNJ1hfqA" },
+
+{ date: "2025-11-04", time: "19:29", type: "drive-image", driveId: "1dB6TQ3LBL-9B414xOR68OAcuGGYHimw_" },
+
+{ date: "2025-11-05", time: "13:28", text: "하이하이" },
+
+{ date: "2025-11-05", time: "13:29", type: "drive-image", driveId: "1j-0_e2G_AUpWixpnlw3Gu9gZbtAHZZA0" },
+
+{ date: "2025-11-07", time: "13:39", text: "오늘 진짜" },
+
+{ date: "2025-11-07", time: "13:39", text: "날씨가" },
+
+{ date: "2025-11-07", time: "13:39", text: "너무너무 좋다" },
+
+{ date: "2025-11-07", time: "13:39", text: "단풍보러 산 가고싶어 ㅠㅠ" },
+
+{ date: "2025-11-07", time: "13:39", text: "완벽한날씨 진짜.." },
+
+{ date: "2025-11-08", time: "20:06", type: "drive-image", driveId: "1mwkfkToHDbk97Nxva61g6EV_rAY35O6V" },
+
+{ date: "2025-11-08", time: "20:06", type: "drive-image", driveId: "15TMdl4OrZSBorjDs42nOsjPWKqFaUSUV" },
+
+{ date: "2025-11-08", time: "20:06", type: "drive-image", driveId: "1DuXfeI0IpzLKXd6i4IK_fn1ATVdcliEg" },
+
+{ date: "2025-11-08", time: "20:06", type: "drive-image", driveId: "1NO6oZWrVdcnsrmFjocS3YLoEaO4h8DTS" },
+
+{ date: "2025-11-08", time: "20:06", type: "drive-image", driveId: "1kYUBZiuy1V_i9el2Q5E2zb2s9-Ca65dk" },
+
+{ date: "2025-11-08", time: "20:06", type: "drive-image", driveId: "10upwBHff3voDFDJ4SZ50n81olq_1qCas" },
+
+{ date: "2025-11-08", time: "20:06", text: "짜자자자자자자잔" },
+
+{ date: "2025-11-08", time: "20:06", text: "어제오늘 셀카 ㅎㅎ" },
+	{ date: "2025-10-05", time: "19:21", type: "drive-image", driveId: "1Nvm9mysc2NT7WG9Iq5KmAqJiXHo8LN9q" },
+
+{ date: "2025-10-05", time: "19:21", text: "짠" },
+
+{ date: "2025-10-05", time: "19:23", text: "이제 추석 연휴 시작이다!!!" },
+
+{ date: "2025-10-06", time: "17:26", text: "비가 왜이렇게 많이 오는걸까..." },
+
+{ date: "2025-10-06", time: "17:26", text: "다음주까지도 계속 비오네 ㅠㅠ" },
+
+{ date: "2025-10-08", time: "17:54", text: "하이하이" },
+
+{ date: "2025-10-08", time: "17:54", text: "컨포 뜬거 봐써?!" },
+
+{ date: "2025-10-08", time: "17:54", text: "ㅋㅋㅋㅋ 잘나왔더라구 ㅎㅎ" },
+
+{ date: "2025-10-08", time: "20:35", type: "drive-image", driveId: "1ixz61kY9cH2bMDcMWfwWJRHToWvx96Fa" },
+
+{ date: "2025-10-08", time: "20:35", type: "drive-image", driveId: "1sBj3nr5vRn20p0EFkKRIoGj8Diol-i0q" },
+
+{ date: "2025-10-08", time: "20:36", text: "짠" },
+
+{ date: "2025-10-10", time: "11:17", type: "drive-image", driveId: "1yKizNrwvjEO17BfkJ2An-9gYm0wOS-KC" },
+
+{ date: "2025-10-10", time: "11:17", text: "맛점!!!" },
+
+{ date: "2025-10-10", time: "16:14", text: "오늘 드러머 안아주기 날이라구??" },
+
+{ date: "2025-10-10", time: "16:15", type: "drive-image", driveId: "12IP9nDJiXGkeAVBa7E2f8frilmNFisfv" },
+
+{ date: "2025-10-12", time: "22:07", text: "하이하이~" },
+
+{ date: "2025-10-12", time: "22:08", text: "난 오늘 합주 엄청 하구" },
+
+{ date: "2025-10-12", time: "22:08", text: "잠깐 눈좀 붙였다가" },
+
+{ date: "2025-10-12", time: "22:08", text: "연습하러와있엉 ㅎㅎ" },
+
+{ date: "2025-10-12", time: "22:08", text: "연습해야할게 너무너무 많아.." },
+
+{ date: "2025-10-12", time: "22:09", text: "이번 노래들 드럼 다 완전 빡세" },
+
+{ date: "2025-10-12", time: "22:09", text: "ㅠㅠ" },
+
+{ date: "2025-10-12", time: "22:10", text: "빨리 @@@ 보고싶다" },
+
+{ date: "2025-10-12", time: "22:10", text: "못본지 넘 오래된거 같아" },
+
+{ date: "2025-10-12", time: "22:10", text: "요즘 게임도 아예 안하구" },
+
+{ date: "2025-10-12", time: "22:10", text: "시간 남으면 연습만 하는중.." },
+
+{ date: "2025-10-12", time: "22:11", text: "이번곡들 빡센것도 빡센건데" },
+
+{ date: "2025-10-12", time: "22:12", text: "드럼 실력이 좀 정체되어있던거 같아서" },
+
+{ date: "2025-10-12", time: "22:12", text: "다시 레벨업을 해야할거같아서" },
+
+{ date: "2025-10-12", time: "22:12", text: "ㅎㅎ" },
+
+{ date: "2025-10-14", time: "21:54", type: "drive-image", driveId: "1R1LeKJGIfKkN4ebZmF-ilUWGm7Z58_Ss" },
+
+{ date: "2025-10-14", time: "21:54", text: "저녁 먹는당!" },
+
+{ date: "2025-10-14", time: "21:54", text: "@@@도 잘 챙겨먹어야햄" },
+
+{ date: "2025-10-15", time: "23:42", type: "drive-image", driveId: "1cf2AaEdV71YbAKIALlFdNbV9Pr3vtLq0" },
+
+{ date: "2025-10-15", time: "23:42", type: "drive-image", driveId: "14uYydN7fSQgS4E8aN2E5RacFOJeHvuhI" },
+
+{ date: "2025-10-15", time: "23:42", text: "짠" },
+
+{ date: "2025-10-15", time: "23:42", text: "어제셀카 ㅋㅋ" },
+
+{ date: "2025-10-17", time: "18:50", text: "하이하이" },
+
+{ date: "2025-10-17", time: "18:50", text: "머하구이써!" },
+
+{ date: "2025-10-17", time: "18:51", text: "낮에 날씨 좋더니 갑자기 비오넹 ㅜ" },
+
+{ date: "2025-10-18", time: "21:37", type: "drive-image", driveId: "1pmwwpnnXRLx9zKya_wMngLsVp568wiic" },
+
+{ date: "2025-10-18", time: "21:37", type: "drive-image", driveId: "1aRp_v1IrTuzY3xc7Yqp6vX7fQmInD_ce" },
+
+{ date: "2025-10-18", time: "21:37", type: "drive-image", driveId: "1TaeRdKYULfZi7FnuYIJsvT0keHUF8Bbw" },
+
+{ date: "2025-10-18", time: "21:37", text: "짠" },
+
+{ date: "2025-10-19", time: "23:51", text: "하이하이" },
+
+{ date: "2025-10-19", time: "23:51", text: "스키즈 콘서트 보고왔어 ㅎㅎ" },
+
+{ date: "2025-10-19", time: "23:55", text: "너무 멋있더라 ㅎㅎ" },
+
+{ date: "2025-10-19", time: "23:55", text: "우리도 언젠간 불꽃놀이 팡팡 터뜨려야지 ㅠㅠ" },
+
+{ date: "2025-10-22", time: "14:45", text: "하이하이!" },
+
+{ date: "2025-10-22", time: "14:45", text: "머하구이써!" },
+
+{ date: "2025-10-22", time: "14:46", text: "나는 좀이따 있을 라이브 준비중 ㅎㅎ" },
+
+{ date: "2025-10-24", time: "19:16", text: "하이하이" },
+
+{ date: "2025-10-24", time: "19:16", text: "오랜만에 음방도니까 넘 피곤해서 정신이 없었엉 ㅠㅠ" },
+
+{ date: "2025-10-24", time: "19:17", text: "곡들 다 들어봐써?" },
+
+{ date: "2025-10-24", time: "19:17", text: "ㅋㅋㅋㅋ 좋지" },
+
+{ date: "2025-10-24", time: "19:20", type: "drive-image", driveId: "1Gms8asN6HSbyRZ2fEy-XkwGeRi0bV7S9" },
+
+{ date: "2025-10-24", time: "19:20", type: "drive-image", driveId: "1BuljjIO1KZCRBfta1ahb6DJX0c-euuPN" },
+
+{ date: "2025-10-24", time: "19:20", type: "drive-image", driveId: "1qEY4-WV-SYeoOKZBgPexwtMCO8MzQVCI" },
+
+{ date: "2025-10-24", time: "19:20", type: "drive-image", driveId: "1yZ0nPgWPc-j1g1zdIlFYHHRGRhysdi9E" },
+
+{ date: "2025-10-24", time: "19:20", text: "일단 뮤비 셀카 ㅎㅎ" },
+
+{ date: "2025-10-24", time: "19:23", type: "drive-image", driveId: "1srzHLM1yKoGNOG0F5Gs6MCqQ_Rd1U2K6" },
+
+{ date: "2025-10-24", time: "19:23", text: "어제찍은거 ㅋㅋ" },
+
+{ date: "2025-10-26", time: "11:07", type: "drive-image", driveId: "1H2-qwG55i2v4VHG4Lhnur2rZPJglQFjd" },
+
+{ date: "2025-10-26", time: "11:07", text: "@@@ 밥먹어~~~~~" },
+
+{ date: "2025-10-27", time: "18:47", text: "와" },
+
+{ date: "2025-10-27", time: "18:47", text: "오후 6시 기상한거 처음이야.." },
+
+{ date: "2025-10-27", time: "18:47", text: "어제 끝나고 와서 바로 자기 아까워서" },
+
+{ date: "2025-10-27", time: "18:48", text: "좀 늦게 잤는데" },
+
+{ date: "2025-10-27", time: "18:48", text: "눈뜨니까 6시인거야" },
+
+{ date: "2025-10-27", time: "18:48", text: "머야 별로 못잤네.. 했는데" },
+
+{ date: "2025-10-27", time: "18:48", text: "12시간 넘게 기절한거였다는.." },
+
+{ date: "2025-10-27", time: "18:50", text: "머 좀 먹어야지.. 그리고 연습하러가야행" },
+
+{ date: "2025-10-27", time: "18:50", type: "drive-image", driveId: "1PYtZXK4VjJ7qUyI3Q7XWbIaNJaojYof9" },
+
+{ date: "2025-10-27", time: "18:50", type: "drive-image", driveId: "1J_kedvZPUqrGLWS6bNuQCdHPHzfF6FYo" },
+
+{ date: "2025-10-27", time: "18:51", text: "짠" },
+
+{ date: "2025-10-27", time: "19:04", type: "drive-image", driveId: "1b8TSEKavhp1hDAIXNC4XGC6faR0y-wQ4" },
+
+{ date: "2025-10-27", time: "19:04", text: "회사밥 라멘 나왔당 ㅎㅎ" },	{ date: "2025-09-21", time: "21:41", text: "하이헤이" },
 
 { date: "2025-09-21", time: "21:41", text: "주말 잘 보내구이썽?" },
 

@@ -276,6 +276,7 @@ function allMessages(){
     side:"artist",
     displayText:replaceNicknameToken(m.text||""),
     displayReplyTo:replaceNicknameToken(m.replyTo||""),
+    displayReplyPreview:replaceNicknameToken(m.replyPreview||""),
     displayQuestion:replaceNicknameToken(m.question||""),
     displayOptions:Array.isArray(m.options)
       ?m.options.map(option=>({
@@ -615,27 +616,17 @@ function render(query="", selectedDate=""){
           playButton.classList.add("no-thumb");
         },{once:true});
       }
-    }else if(msg.type==="artist-reply"){
-      row.classList.add("artist-reply-row");
-      row.innerHTML=`
-        <div class="artist-reply-stack">
-          <button class="artist-reply-quote" type="button" aria-expanded="false">
-            <strong class="artist-reply-title">ARTIST의 답장</strong>
-            <span class="artist-reply-preview">${highlight(msg.displayReplyTo||"",query)}</span>
-            <span class="artist-reply-more">전체보기</span>
-          </button>
-          <div class="bubble artist-reply-bubble">${highlight(msg.displayText||"",query)}</div>
-        </div>
-        <span class="time">${formatTime(msg.time)}</span>`;
-      const replyQuote=row.querySelector(".artist-reply-quote");
-      if(replyQuote){
-        replyQuote.addEventListener("click",()=>{
-          const expanded=replyQuote.classList.toggle("expanded");
-          replyQuote.setAttribute("aria-expanded",String(expanded));
-          const more=replyQuote.querySelector(".artist-reply-more");
-          if(more) more.textContent=expanded?"접기":"전체보기";
-        });
-      }
+}else if(msg.type==="artist-reply"){
+  row.classList.add("artist-reply-row");
+  row.innerHTML=`
+    <div class="artist-reply-stack">
+      <div class="artist-reply-reference">
+        <div class="artist-reply-title">ARTIST의 답장</div>
+        <div class="artist-reply-preview">${highlight(msg.displayReplyPreview||"",query)} <span class="artist-reply-viewall">전체보기</span></div>
+      </div>
+      <div class="bubble artist-reply-body">${highlight(msg.displayText||"",query)}</div>
+    </div>
+    <span class="time artist-reply-time">${formatTime(msg.time)}</span>`;
     }else if(msg.type==="poll"){
       row.classList.add("poll-row");
       row.innerHTML=`

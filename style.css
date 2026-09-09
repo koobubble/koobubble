@@ -671,78 +671,40 @@ button,input,textarea{font:inherit}
     height:44px;
   }
 }
-/* =========================
-   ARTIST reply
-   ========================= */
-.artist-reply-row{
-  align-items:flex-end;
-  gap:7px;
-}
+/* ARTIST 답장
+   말풍선 모양/크기/폰트는 기존 .bubble 설정을 그대로 사용 */
 .artist-reply-stack{
-  width:72%;
   display:flex;
   flex-direction:column;
-  gap:9px;
+  align-items:flex-start;
+  gap:8px;
+  min-width:0;
 }
-.artist-reply-reference{
-  width:100%;
-  box-sizing:border-box;
-  padding:18px 17px 17px;
-  background:#fff;
-  border-radius:20px;
+
+.artist-reply-source{
+  display:block;
 }
-.artist-reply-title{
-  margin-bottom:10px;
+
+.artist-reply-label{
+  font-weight:700;
   color:#111;
-  font-size:15px;
-  line-height:1.4;
-  font-weight:800;
-  letter-spacing:-.4px;
+  margin-bottom:8px;
 }
-.artist-reply-original{
-  color:#7f8388;
-  font-size:15px;
-  line-height:1.5;
-  letter-spacing:-.45px;
-  word-break:keep-all;
-  overflow-wrap:break-word;
+
+.artist-reply-source-text{
+  color:#777;
+  white-space:pre-wrap;
+  word-break:break-word;
 }
-.artist .artist-reply-body{
-  width:100%;
-  max-width:none;
-  box-sizing:border-box;
-  padding:13px 15px;
-  border-radius:20px;
-  background:#fff;
-  font-size:15px;
-  line-height:1.5;
-  letter-spacing:-.45px;
-  word-break:keep-all;
-  overflow-wrap:break-word;
+
+.artist-reply-answer-row{
+  display:flex;
+  align-items:flex-end;
+  gap:6px;
+  min-width:0;
 }
-.artist-reply-time{
-  margin-bottom:3px;
-}
-@media(max-width:600px){
-  .artist-reply-stack{
-    width:74%;
-  }
-  .artist-reply-reference{
-    padding:19px 17px 18px;
-    border-radius:21px;
-  }
-  .artist-reply-title{
-    margin-bottom:10px;
-    font-size:17px;
-  }
-  .artist-reply-original{
-    font-size:17px;
-    line-height:1.5;
-  }
-  .artist .artist-reply-body{
-    padding:15px 17px;
-    border-radius:21px;
-    font-size:17px;
-    line-height:1.5;
-  }
+
+.artist-reply-answer-row .time{
+  flex:none;
+  margin-bottom:2px;
 }

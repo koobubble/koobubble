@@ -619,13 +619,15 @@ function render(query="", selectedDate=""){
   row.classList.add("artist-reply-row");
   row.innerHTML=`
     <div class="artist-reply-stack">
-      <div class="artist-reply-reference">
-        <div class="artist-reply-title">ARTIST의 답장</div>
-        <div class="artist-reply-original">${highlight(msg.displayReplyTo||"",query)}</div>
+      <div class="bubble artist-reply-source">
+        <div class="artist-reply-label">ARTIST의 답장</div>
+        <div class="artist-reply-source-text">${highlight(msg.displayReplyTo||"",query)}</div>
       </div>
-      <div class="bubble artist-reply-body">${highlight(msg.displayText||"",query)}</div>
-    </div>
-    <span class="time artist-reply-time">${formatTime(msg.time)}</span>`;
+      <div class="artist-reply-answer-row">
+        <div class="bubble">${highlight(msg.displayText||"",query)}</div>
+        <span class="time">${formatTime(msg.time)}</span>
+      </div>
+    </div>`;
     }else if(msg.type==="poll"){
       row.classList.add("poll-row");
       row.innerHTML=`

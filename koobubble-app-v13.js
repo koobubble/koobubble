@@ -275,6 +275,7 @@ function allMessages(){
     ...m,
     side:"artist",
     displayText:replaceNicknameToken(m.text||""),
+    displayReplyTo:replaceNicknameToken(m.replyTo||""),
     displayQuestion:replaceNicknameToken(m.question||""),
     displayOptions:Array.isArray(m.options)
       ?m.options.map(option=>({
@@ -444,6 +445,7 @@ function render(query="", selectedDate=""){
 
     return [
       msg.displayText||"",
+        msg.displayReplyTo||"",
       msg.displayQuestion||"",
       pollOptionText,
       msg.untilText||"",
@@ -613,7 +615,27 @@ function render(query="", selectedDate=""){
           playButton.classList.add("no-thumb");
         },{once:true});
       }
-
+    }else if(msg.type==="artist-reply"){
+      row.classList.add("artist-reply-row");
+      row.innerHTML=`
+        <div class="artist-reply-stack">
+          <button class="artist-reply-quote" type="button" aria-expanded="false">
+            <strong class="artist-reply-title">ARTIST의 답장</strong>
+            <span class="artist-reply-preview">${highlight(msg.displayReplyTo||"",query)}</span>
+            <span class="artist-reply-more">전체보기</span>
+          </button>
+          <div class="bubble artist-reply-bubble">${highlight(msg.displayText||"",query)}</div>
+        </div>
+        <span class="time">${formatTime(msg.time)}</span>`;
+      const replyQuote=row.querySelector(".artist-reply-quote");
+      if(replyQuote){
+        replyQuote.addEventListener("click",()=>{
+          const expanded=replyQuote.classList.toggle("expanded");
+          replyQuote.setAttribute("aria-expanded",String(expanded));
+          const more=replyQuote.querySelector(".artist-reply-more");
+          if(more) more.textContent=expanded?"접기":"전체보기";
+        });
+      }
     }else if(msg.type==="poll"){
       row.classList.add("poll-row");
       row.innerHTML=`

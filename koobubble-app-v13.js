@@ -276,7 +276,6 @@ function allMessages(){
     side:"artist",
     displayText:replaceNicknameToken(m.text||""),
     displayReplyTo:replaceNicknameToken(m.replyTo||""),
-    displayReplyPreview:replaceNicknameToken(m.replyPreview||""),
     displayQuestion:replaceNicknameToken(m.question||""),
     displayOptions:Array.isArray(m.options)
       ?m.options.map(option=>({
@@ -622,7 +621,7 @@ function render(query="", selectedDate=""){
     <div class="artist-reply-stack">
       <div class="artist-reply-reference">
         <div class="artist-reply-title">ARTIST의 답장</div>
-        <div class="artist-reply-preview">${highlight(msg.displayReplyPreview||"",query)} <span class="artist-reply-viewall">전체보기</span></div>
+        <div class="artist-reply-original">${highlight(msg.displayReplyTo||"",query)}</div>
       </div>
       <div class="bubble artist-reply-body">${highlight(msg.displayText||"",query)}</div>
     </div>

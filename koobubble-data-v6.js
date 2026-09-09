@@ -9,6 +9,692 @@ const SENDER = {
 };
 
 const MESSAGES = [
+	{ date: "2026-03-02", time: "19:27", text: "비많이온다아" },
+
+{ date: "2026-03-02", time: "19:27", text: "오랜만에 비 보는거 같아" },
+
+{ date: "2026-03-02", time: "19:28", text: "이런 날씨에는 엑디즈 파라노이드가 잘어울려" },
+
+{ date: "2026-03-02", time: "19:29", text: "ㅋㅋㅋㅋ" },
+
+{ date: "2026-03-02", time: "19:30", text: "미국의 건조하고 맑은 날씨가 벌써 그립다 ㅋㅋㅋ" },
+
+{ date: "2026-03-02", time: "19:30", type: "drive-image", driveId: "1W7W8vjg7BmQAg8fNRjFsnf4quiuImMlL" },
+
+{ date: "2026-03-02", time: "19:31", type: "drive-image", driveId: "1XifKV_QmYWEg_IEzUh0I8BggS-p41Tne" },
+
+{ date: "2026-03-02", time: "19:31", text: "사진 멋있지" },
+
+{ date: "2026-03-02", time: "19:33", type: "drive-image", driveId: "1pyvyLGuj24SrOXWsoIwUhg9TX7QcEroc" },
+
+{ date: "2026-03-02", time: "19:33", type: "drive-image", driveId: "16_yjpa1TV7ENQpj-z9A6nEHtwoRkTPlp" },
+
+{ date: "2026-03-07", time: "17:56", text: "하이하이" },
+
+{ date: "2026-03-07", time: "17:56", text: "오늘 날씨 좋다 ㅎㅎ" },
+
+{ date: "2026-03-07", time: "17:56", text: "주말 잘 보내구있어??" },
+
+{ date: "2026-03-07", time: "17:58", text: "나는 요즘 @@@가 기다리는것들 준비하느라" },
+
+{ date: "2026-03-07", time: "17:58", text: "바쁘게 지내고있었어 ㅎㅎ" },
+
+{ date: "2026-03-07", time: "17:59", text: "오늘은 합주 있었다!" },
+
+{ date: "2026-03-10", time: "10:41", text: "하이하이" },
+
+{ date: "2026-03-10", time: "10:41", text: "굿모닝~~" },
+
+{ date: "2026-03-10", time: "10:42", text: "일하러 나왔엉 나는 ㅎㅎ" },
+
+{ date: "2026-03-10", time: "10:42", text: "@@@는 머해" },
+
+{ date: "2026-03-10", time: "11:12", text: "ㅋㅋㅋㅋ 응응 어제는 건강검진 받았어" },
+
+{ date: "2026-03-10", time: "11:13", text: "건강하답니다 ㅎㅎ" },
+
+{ date: "2026-03-11", time: "17:48", type: "drive-image", driveId: "1K9w9zXGB9uh8-OL_C7qiL_11trL1szrw" },
+
+{ date: "2026-03-11", time: "17:48", text: "노을이 이쁘구만" },
+
+{ date: "2026-03-12", time: "03:01", text: "이제 퇴근..." },
+
+{ date: "2026-03-12", time: "03:01", text: "힘들다잉" },
+
+{ date: "2026-03-12", time: "03:01", type: "emote", src: "emotes/crying.png" },
+
+{ date: "2026-03-12", time: "10:45", text: "오늘도 하루종일 촬영쓰" },
+
+{ date: "2026-03-12", time: "10:45", text: "날씨는 좋다 ㅎㅎ" },
+
+{ date: "2026-03-13", time: "14:40", text: "하이하이" },
+
+{ date: "2026-03-13", time: "14:41", text: "금욜 어떻게 보내구이써" },
+
+{ date: "2026-03-14", time: "13:45", type: "drive-image", driveId: "1g0QHfRbVNItulaub5ogLA6lF8ILvn87C" },
+
+{ date: "2026-03-14", time: "13:45", text: "맛점!!" },
+
+{ date: "2026-03-14", time: "13:45", text: "오랜만에 주말같은 주말... 좋다" },
+
+{ date: "2026-03-14", time: "20:10", type: "drive-video", driveId: "18ozoe5JDz7396qDznNOCURSvnk1LvdE4" },
+
+{ date: "2026-03-14", time: "20:10", text: "스틱돌리기 새로운 콤보 연습해보고이써" },
+
+{ date: "2026-03-14", time: "20:11", text: "라이브에서 보여주고 싶어서" },
+
+{ date: "2026-03-14", time: "20:11", text: "더 익숙해질때까지 연습해보께 ㅋㅋㅋ" },
+
+{ date: "2026-03-14", time: "21:40", text: "나 오랜만에 오노추 할게 또 생겼다!" },
+
+{ date: "2026-03-14", time: "21:40", text: "James Lee - Dead Stars" },
+
+{ date: "2026-03-14", time: "21:41", text: "유튜브에서 우연히 발견했는데" },
+
+{ date: "2026-03-14", time: "21:41", text: "곡 너무 좋다" },
+
+{ date: "2026-03-18", time: "20:26", type: "drive-video", driveId: "1kYygqfPZfzyW84YjZ8J4c0JKgjyiAGC7" },
+
+{ date: "2026-03-18", time: "20:26", text: "맛있겠지 ㅎㅎ" },
+
+{ date: "2026-03-18", time: "20:26", text: "율 형이랑 오랜만에 밥먹었어 ㅎㅎ" },
+
+{ date: "2026-03-18", time: "20:27", text: "대창 너무 오랜만이었어 ㅋㅋㅋ" },
+
+{ date: "2026-03-18", time: "20:27", text: "@@@는 맛있는거 먹었어??" },
+
+{ date: "2026-03-22", time: "17:05", text: "주말 어떻게 보내구이써!" },
+
+{ date: "2026-03-22", time: "17:05", text: "난 어제 잘 쉬구 오늘은 촬영 나와있다 ㅎㅎ" },
+
+{ date: "2026-03-22", time: "17:06", text: "사진 보내주고 싶지만.. 스포방지 ㅠㅠ" },
+
+{ date: "2026-03-22", time: "17:06", text: "사실 사진이 아니라 오늘 촬영 모니터 영상 찍은거" },
+
+{ date: "2026-03-22", time: "17:06", text: "당장 보내주고 싶어" },
+
+{ date: "2026-03-22", time: "17:06", text: "그치만.... 꾹꾹참는중..." },
+
+{ date: "2026-03-22", time: "17:07", text: "진짜 역대급레전드킹왕짱영상이야" },
+
+{ date: "2026-03-22", time: "19:36", text: "퇴근한다!" },
+
+{ date: "2026-03-22", time: "19:37", text: "집가서 팬즈 라이브 킬건데 놀러올사람~~!" },
+
+{ date: "2026-03-22", time: "20:08", text: "집 도착! 라이브킬게!" },
+
+{ date: "2026-03-22", time: "20:17", text: "팬즈 오류땜에 안되네 ㅜ 인스타로 킬게" },
+
+{ date: "2026-03-27", time: "12:33", text: "헬로헬로~" },
+
+{ date: "2026-03-27", time: "12:33", text: "해피 금요일~~~" },
+
+{ date: "2026-03-27", time: "12:33", text: "엑스룸 잘 듣구 이써???" },
+
+{ date: "2026-03-27", time: "13:36", text: "이번 엑스룸" },
+
+{ date: "2026-03-27", time: "13:36", text: "뭔가 나중에라도 멜론 탑백 올라갈 수 있을거같아" },
+
+{ date: "2026-03-27", time: "13:36", text: "느낌이 온다" },
+
+{ date: "2026-03-29", time: "17:38", type: "drive-image", driveId: "1UJdeGqqzSoBhmDMZ4a-rkUwRowJzjbJ6" },
+
+{ date: "2026-03-29", time: "17:38", type: "drive-image", driveId: "10rK3h2w99rCgHUjV9kp_29gfUpz6KrjY" },
+
+{ date: "2026-03-29", time: "17:38", text: "조금 늦은 엑스룸 뮤비 셀카 ㅎㅎ" },
+
+{ date: "2026-03-29", time: "17:39", text: "이날 좀 부었다 ㅋㅋㅋ" },
+
+{ date: "2026-04-02", time: "02:51", type: "drive-image", driveId: "1lR8be_aeE43iVZy0V6JvPxbEPh0y1xbS" },
+
+{ date: "2026-04-02", time: "02:51", text: "오늘 달 짱예쁘다!" },
+
+{ date: "2026-04-02", time: "02:51", text: "아이폰 17프로맥스 산 보람이있다 ㅎㅎ" },
+
+{ date: "2026-04-02", time: "02:52", text: "@@@도 오늘 달 봐써?" },
+
+{ date: "2026-04-02", time: "02:52", text: "못봤으면 내일은 꼭 봐!" },
+
+{ date: "2026-04-02", time: "02:53", text: "아 오랜만에 오노추 할거 있다" },
+
+{ date: "2026-04-02", time: "02:53", text: "내가 요즘 되게 빠진 밴드인데" },
+
+{ date: "2026-04-02", time: "02:53", text: "드러머가 진짜 멋있더라구" },
+
+{ date: "2026-04-02", time: "02:53", text: "엑스칼리버히어로즈?의 워킹투더문!" },
+
+{ date: "2026-04-02", time: "02:54", text: "그 밴드 노래 좋더라구" },
+
+{ date: "2026-04-02", time: "02:54", text: "꼭들어봐 ㅎㅎ" },	{ date: "2026-02-01", time: "22:42", type: "drive-image", driveId: "154WHQNOnR860eX6C-TzuUpJOpy9UH-9N" },
+
+{ date: "2026-02-01", time: "22:42", type: "drive-image", driveId: "1ceEG2cnXZw9LfNWUzVWOcK3uC7xje_h3" },
+
+{ date: "2026-02-01", time: "22:42", text: "오늘 너무 재밌었다 ㅎㅎ!" },
+
+{ date: "2026-02-01", time: "22:43", text: "사람 완전 많아써!" },
+
+{ date: "2026-02-01", time: "22:43", text: "먼길 와준 빌런즈들 넘 고맙구" },
+
+{ date: "2026-02-01", time: "22:43", text: "오고싶었지만 못 온 빌런즈들도 멀리서 응원해줘서 고마워 ㅎㅎ" },
+
+{ date: "2026-02-01", time: "23:29", type: "drive-image", driveId: "1mAsv8PfYPrzvFVqh6zuGlNG671S5OzF7" },
+
+{ date: "2026-02-01", time: "23:30", text: "올만에 네컷사진도 찍었다 ㅋㅋ" },
+
+
+{ date: "2026-02-02", time: "00:55", type: "drive-image", driveId: "117Gnz0NiiittKlYjyKtm6oEmLOuQ0RSG" },
+
+{ date: "2026-02-02", time: "00:55", text: "원본 ㅋㅋ" },
+
+{ date: "2026-02-02", time: "00:55", type: "drive-video", driveId: "1Jw3UMiKBSXeLwMkyQ8WcDlGOvm7GT7Fs" },
+
+{ date: "2026-02-02", time: "00:55", text: "영상도!!" },
+
+{ date: "2026-02-02", time: "00:56", type: "drive-image", driveId: "1ecQ7xX3EzWhXlBqvOkWbbJMMgiEw7Isn" },
+
+{ date: "2026-02-02", time: "00:56", text: "정수 귀여워 ㅋㅋㅋ" },
+
+{ date: "2026-02-04", time: "12:52", text: "하이하이" },
+
+{ date: "2026-02-04", time: "12:52", text: "머하구이쏘" },
+
+{ date: "2026-02-04", time: "12:53", text: "나는 슬슬 밥먹으려구" },
+
+{ date: "2026-02-04", time: "12:53", text: "뭐먹을지 고민중.." },
+
+{ date: "2026-02-04", time: "12:54", text: "요즘 닭가슴살 자주 먹는데" },
+
+{ date: "2026-02-04", time: "12:55", text: "어제도 점심 저녁 다 닭가슴살 먹어서" },
+
+{ date: "2026-02-04", time: "12:55", text: "다이어트중.." },
+
+{ date: "2026-02-05", time: "13:14", type: "drive-image", driveId: "126jE0-RWVN9Zwpyp9RFmHPNzD0P_f_oE" },
+
+{ date: "2026-02-05", time: "13:14", text: "오늘의 점심" },
+
+{ date: "2026-02-05", time: "13:14", text: "맛있겠지" },
+
+{ date: "2026-02-05", time: "13:14", text: "저 닭가슴살 진짜 맛있어" },
+
+{ date: "2026-02-05", time: "13:15", text: "엽기떡볶이맛인데 닭가슴살 사이에 쪼그만 떡도 몇개 박혀있어 ㅋㅋㅋ" },
+
+{ date: "2026-02-06", time: "15:52", text: "하이하이" },
+
+{ date: "2026-02-06", time: "15:52", text: "어제 더 로직 봤어??!" },
+
+{ date: "2026-02-06", time: "15:52", text: "난 아직 못봐써..." },
+
+{ date: "2026-02-06", time: "15:53", text: "잘 나왔어???" },
+
+{ date: "2026-02-08", time: "20:35", type: "drive-image", driveId: "1H8dqAk9kR1UTxT124dn1-y1emQkSiy1w" },
+
+{ date: "2026-02-08", time: "20:35", text: "원위 콘서트 다녀와써 ㅎㅎ" },
+
+{ date: "2026-02-08", time: "20:35", text: "진짜 너무너무너무너무 재밌었다" },
+
+{ date: "2026-02-08", time: "20:36", text: "일단 다 연주를 너무너무너무 잘해" },
+
+{ date: "2026-02-08", time: "20:36", text: "노래도 너무너무 잘하고" },
+
+{ date: "2026-02-08", time: "20:36", text: "처음 가봤는데.. 감동도 있고.." },
+
+{ date: "2026-02-08", time: "20:37", text: "보고 배운것도 정말 많고" },
+
+{ date: "2026-02-08", time: "20:37", text: "우리도 빨리 다시 콘서트 하고싶어 ㅋㅋㅋㅋ" },
+
+{ date: "2026-02-08", time: "20:38", text: "진짜 완전 원위 팬됐어" },
+
+{ date: "2026-02-08", time: "20:39", text: "런즈들도 나중에 원위 콘서트하면 꼭 가봐" },
+
+{ date: "2026-02-08", time: "20:39", text: "진짜 너무너무 재밌어" },
+
+{ date: "2026-02-08", time: "20:39", text: "물론 엑디즈를 제일 좋아해야해" },
+
+{ date: "2026-02-08", time: "20:40", text: "하린이 진짜 드럼을 너무 잘쳐..." },
+
+{ date: "2026-02-08", time: "20:41", text: "ㅁㅣ친넘(p) 인줄 알았어" },
+
+{ date: "2026-02-08", time: "20:41", text: "이렇게 쓰는거 맞지? (p)" },
+
+{ date: "2026-02-08", time: "20:41", text: "요즘 많이 보이더라구" },
+
+{ date: "2026-02-08", time: "20:41", text: "ㅋㅋㅋ" },
+
+{ date: "2026-02-08", time: "20:42", text: "유행 지난거야?" },
+
+{ date: "2026-02-08", time: "20:42", text: "E쳤다는 또 뭐야" },
+
+{ date: "2026-02-08", time: "20:42", text: "E가 무슨뜻이야?" },
+
+{ date: "2026-02-08", time: "20:43", text: "아..... e가 미...." },
+
+{ date: "2026-02-10", time: "17:26", text: "갑자기 비가오네..." },
+
+{ date: "2026-02-10", time: "17:26", text: "우산 챙겼어 @@@?" },
+
+{ date: "2026-02-10", time: "17:26", text: "원래 오늘 비 예보 있었나?" },
+
+{ date: "2026-02-10", time: "17:27", text: "겨울도 끝나가나봐" },
+
+{ date: "2026-02-10", time: "17:27", text: "눈이 아니고 비가 오네" },
+
+{ date: "2026-02-11", time: "18:32", text: "하이하이" },
+
+{ date: "2026-02-11", time: "18:32", text: "완전 오랜만에 라디오간당" },
+
+{ date: "2026-02-11", time: "18:32", type: "emote", src: "emotes/sleep.png" },
+
+{ date: "2026-02-13", time: "12:53", text: "하이하이~~" },
+
+{ date: "2026-02-13", time: "12:53", text: "오늘은 날이 많이 흐리넹" },
+
+{ date: "2026-02-13", time: "12:53", text: "그래도 좀 덜 춥다 ㅎㅎ" },
+
+{ date: "2026-02-13", time: "12:54", text: "점심 먹었어??" },
+
+{ date: "2026-02-13", time: "12:54", text: "나는 아직 ㅋㅋ" },
+
+{ date: "2026-02-13", time: "12:55", text: "오늘 회사에서 ppt 발표할거 있어서" },
+
+{ date: "2026-02-13", time: "12:55", text: "이거 준비하느라 어제도 6시쯤 잔거같다 ㅠ" },
+
+{ date: "2026-02-16", time: "14:52", text: "새해 복 많이 받아 @@@!!" },
+
+{ date: "2026-02-16", time: "14:52", type: "emote", src: "emotes/love.png" },
+
+{ date: "2026-02-16", time: "14:53", type: "drive-image", driveId: "1p4AiPdfoyw2TW_VUYnW9qXHlmQuEMguG" },
+
+{ date: "2026-02-16", time: "14:53", type: "drive-image", driveId: "1njia2ewlhjKaJ5cGbdO_UB1KpITLib7i" },
+
+{ date: "2026-02-16", time: "17:16", text: "아 손 저거 다친거" },
+
+{ date: "2026-02-16", time: "17:16", text: "에어프라이어에 살짝 화상입었어 ㅋㅋㅋ" },
+
+{ date: "2026-02-17", time: "23:11", type: "drive-image", driveId: "1vC3EpJFuYHS1f2NJ1vzUw-PkZRO2Teh6" },
+
+{ date: "2026-02-17", time: "23:11", text: "나 미국와써 ㅎㅎ" },
+
+{ date: "2026-02-17", time: "23:11", text: "밤비행기타고 출발해서 밤에 도착해서" },
+
+{ date: "2026-02-17", time: "23:11", text: "도착하자마자 바로 기절했다가 지금 일어났다 ㅎㅎ" },
+
+{ date: "2026-02-17", time: "23:12", text: "여기 아침 7시다 ㅋㅋ" },
+
+{ date: "2026-02-20", time: "00:45", text: "오 뭐야!!" },
+
+{ date: "2026-02-20", time: "00:45", text: "더로직 막방 나갔구나" },
+
+{ date: "2026-02-20", time: "00:45", text: "나 시차때문에 본방 못챙겨봤네 ㅠㅠ" },
+
+{ date: "2026-02-20", time: "00:45", text: "잘 나왔어???!!! 나 긴장 진짜 많이 했는데..." },
+
+{ date: "2026-02-20", time: "00:46", text: "마지막 토론 준비하는 과정도 나왔으려나..." },
+
+{ date: "2026-02-20", time: "00:46", text: "나 진짜 너무 긴장했었어 ㅠ" },
+
+{ date: "2026-02-20", time: "00:47", text: "이번주중에 라방 한번 켜야겠다!" },
+
+{ date: "2026-02-20", time: "00:47", text: "지금 부모님이랑 여행와있어서" },
+
+{ date: "2026-02-20", time: "00:47", text: "집 돌아가면 라방 한번 킬게!!" },
+
+{ date: "2026-02-21", time: "20:34", text: "오랜만에 X에 사진 올렸당 ㅎㅎ" },
+
+{ date: "2026-02-21", time: "20:35", text: "잘나왔어! 얼른 보러가!" },
+
+{ date: "2026-02-21", time: "20:37", text: "나 사진 찍어준다고 엄마 아빠가 고생 많이했어..." },
+
+{ date: "2026-02-21", time: "20:37", text: "ㅋㅋㅋㅋㅋㅋㅋ" },
+
+{ date: "2026-02-21", time: "20:38", type: "drive-video", driveId: "1Fx9pp_vM0G536UTXLxhvideR5gp5Rrdp" },
+
+{ date: "2026-02-21", time: "20:39", type: "drive-video", driveId: "1nqPeP4q7d_h_vWEwOpafo0CUYHeS6AwL" },
+
+{ date: "2026-02-22", time: "23:58", text: "하이하이" },
+
+{ date: "2026-02-22", time: "23:58", text: "시차가 완전 뒤죽박죽이네 나 ㅠ" },
+
+{ date: "2026-02-22", time: "23:59", text: "여기 이제 아침 7:59당" },
+
+{ date: "2026-02-23", time: "00:08", text: "30분있다 라방 킬게!" },
+
+{ date: "2026-02-27", time: "08:26", text: "하이하이" },
+
+{ date: "2026-02-27", time: "08:26", text: "한국 돌아왔다!!" },
+
+{ date: "2026-02-27", time: "08:26", type: "drive-image", driveId: "1Z4FnaknfhdBedeUzDdxUkos0cuIfIv0t" },
+
+{ date: "2026-02-27", time: "08:27", text: "직항이 없어서 너무 힘들러" },
+
+{ date: "2026-02-27", time: "08:27", text: "ㅠㅠ" },
+
+{ date: "2026-02-27", time: "10:53", text: "오랜만에 오노추!" },
+
+{ date: "2026-02-27", time: "10:53", text: "Yellowjackets - Rush Hour" },
+
+{ date: "2026-02-27", time: "10:54", text: "대학다닐때 좋아하던 곡인데" },
+
+{ date: "2026-02-27", time: "10:54", text: "오랜만에 들으니까 넘 재밌네 ㅎㅎ" },
+	{ date: "2026-01-10", time: "11:56", text: "굿모닝~~!!" },
+
+{ date: "2026-01-10", time: "11:56", text: "오하요 고자이마스~~!!" },
+
+{ date: "2026-01-10", time: "12:01", text: "일본어 잘하고 싶어" },
+
+{ date: "2026-01-10", time: "12:01", text: "ㅋㅋㅋㅋ" },
+
+{ date: "2026-01-10", time: "12:02", text: "어제 리허설 전에 다 같이 도톤보리 돌아다녔는데" },
+
+{ date: "2026-01-10", time: "12:02", text: "거리가 너무 예쁘더라" },
+
+{ date: "2026-01-10", time: "12:03", type: "drive-image", driveId: "1bpN0YyaIz-8XDrItvOknlAsxUss6CJKa" },
+
+{ date: "2026-01-10", time: "12:03", type: "drive-image", driveId: "1WdNxck4LXQ7gfMKe9oGcfPU3s3m3ir2i" },
+
+{ date: "2026-01-11", time: "19:41", text: "오사카 공연 굿!" },
+
+{ date: "2026-01-11", time: "19:41", text: "넘 재밌었다 ㅎㅎ" },
+
+{ date: "2026-01-11", time: "19:41", type: "drive-image", driveId: "1g87Zkc9GwCQMKCn1Y9PKIDOA-iwMKTnG" },
+
+{ date: "2026-01-11", time: "19:41", type: "drive-image", driveId: "1bSzCONVHW-YlzRpjfOcvc276g9DL7JlY" },
+
+{ date: "2026-01-11", time: "19:41", type: "drive-image", driveId: "1PeOwwf44go1Fe4gN0tEdBB4wje38cRIe" },
+
+{ date: "2026-01-11", time: "19:42", text: "짠~" },
+
+{ date: "2026-01-14", time: "12:25", text: "오하요~~~" },
+
+{ date: "2026-01-14", time: "12:25", text: "벌써 일본공연 마지막날이다.." },
+
+{ date: "2026-01-14", time: "12:26", text: "일주일이 너무 빠르게갔다 ㅠㅠ" },
+
+{ date: "2026-01-14", time: "23:11", text: "공연 굿!!!" },
+
+{ date: "2026-01-14", time: "23:11", text: "회식하러왔다아!!!" },
+
+{ date: "2026-01-15", time: "01:40", type: "drive-image", driveId: "1fYw1ufGKJxykpxxi3EjGRq52YIisslrO" },
+
+{ date: "2026-01-15", time: "01:40", text: "고기 먹어서 ㅎㅎ" },
+
+{ date: "2026-01-15", time: "12:10", type: "drive-image", driveId: "1_ucMAPHTAtMi-FhOcezMuhcCwJcLQ8ec" },
+
+{ date: "2026-01-15", time: "12:10", text: "일본 안녕 👋🏻" },
+
+{ date: "2026-01-17", time: "15:14", text: "@@@ 모행" },
+
+{ date: "2026-01-17", time: "15:14", text: "토요일 잘 보내구 이써?" },
+
+{ date: "2026-01-17", time: "15:15", text: "난 운동 갔다왔어!" },
+
+
+{ date: "2026-01-17", time: "15:15", text: "가슴근육 뿌시고 왔다" },
+
+{ date: "2026-01-17", time: "15:16", type: "drive-image", driveId: "1jG2HyT61wGC1pdvGGE1Fc_l2Ln5enQ3y" },
+
+{ date: "2026-01-17", time: "15:16", text: "오랜만에 떡볶이 시켰다!" },
+
+{ date: "2026-01-17", time: "15:16", text: "먹기전에 너무 맛있어보여서 갑자기 자랑하고 싶었어" },
+
+{ date: "2026-01-17", time: "15:16", text: "ㅋㅋㅋㅋㅋ" },
+
+{ date: "2026-01-17", time: "15:17", text: "@@@는 밥 먹었써??" },
+
+{ date: "2026-01-17", time: "15:18", text: "아직 안먹은 런즈들은" },
+
+{ date: "2026-01-17", time: "15:18", text: "나랑 같이 떡볶이 먹자" },
+
+{ date: "2026-01-17", time: "15:19", text: "이거 청년다방 1인세트 ㅋㅋ" },
+
+{ date: "2026-01-17", time: "15:19", text: "차돌떡볶이 순한맛이랑 옥수수튀김!" },
+
+{ date: "2026-01-17", time: "15:19", text: "연습생때 주연이가 떡볶이 좋아해서 자주 갔었는데" },
+
+{ date: "2026-01-17", time: "15:20", text: "진짜 오랜만에 먹는거같아 여기 떡볶이" },
+
+
+{ date: "2026-01-20", time: "21:36", type: "drive-image", driveId: "1LU_vm_v8oTXUDNS_RRRH69p6NHJyX0Gh" },
+
+{ date: "2026-01-20", time: "21:36", text: "오늘 하늘 너무 예뻤어" },
+
+{ date: "2026-01-20", time: "21:36", text: "아까 보고 @@@ 보여주려구 바로 찍어써" },
+
+{ date: "2026-01-20", time: "21:37", text: "많이 춥더라 날씨 ㅠㅠ" },
+
+{ date: "2026-01-20", time: "21:37", text: "근데 난 오늘이" },
+
+{ date: "2026-01-20", time: "21:37", text: "개인적으로 생각했을때" },
+
+{ date: "2026-01-20", time: "21:38", text: "이상적인 겨울 날씨중 하나야 ㅋㅋ" },
+
+{ date: "2026-01-20", time: "21:38", text: "춥긴 하지만 공기가 뭔가 깔끔하고" },
+
+{ date: "2026-01-20", time: "21:38", text: "하늘도 높고 햇살도 너무 이뻤구 ㅋㅋ" },
+
+
+{ date: "2026-01-21", time: "15:04", type: "drive-image", driveId: "1kcjll-hAJTRpIyrSmfGv1jFfC7T1BTD7" },
+
+{ date: "2026-01-21", time: "15:04", text: "맛점!!!" },
+
+
+{ date: "2026-01-22", time: "19:17", text: "@@@ " },
+
+{ date: "2026-01-22", time: "19:17", text: "오늘 밤 9시50분" },
+
+{ date: "2026-01-22", time: "19:17", text: "나 참여한 KBS 더 로직 첫방이다!" },
+
+{ date: "2026-01-22", time: "19:17", text: "첫화라서 내 분량이 얼마나 나올지는 모르겠다 ㅋㅋㅋㅋ" },
+
+
+{ date: "2026-01-23", time: "00:52", text: "ㅋㅋㅋㅋ 더로직 봐써??!" },
+
+{ date: "2026-01-23", time: "00:52", text: "너무 재밌었지만 진짜 힘들기도 해서 ㅋㅋㅋㅋㅋ ㅠ" },
+
+{ date: "2026-01-23", time: "00:52", text: "주제가 민감하다보니.. 발언 하나하나에 정말 고민을 많이 해야하거든 ㅎㅎㅎ" },
+
+{ date: "2026-01-23", time: "00:53", text: "그래도 첫화에 얼굴 많이 비친거같아서 다행이다 ㅎㅎ" },
+
+{ date: "2026-01-23", time: "00:54", text: "런즈들이 나 나온다고 챙겨볼텐데, 분량 너무 안나오면 실망할까봐" },
+
+{ date: "2026-01-23", time: "00:54", text: "할수 있는 것들 안에서 최대한 분량 확보하려고 노력했었어 ㅋㅋㅋ" },
+
+{ date: "2026-01-23", time: "00:55", text: "긍데 진짜 이 분야에 전문가이신 분들도 많이 나오시고" },
+
+{ date: "2026-01-23", time: "00:55", text: "변호사님들같이 말 잘하시는 분들 많이 나오셔서" },
+
+{ date: "2026-01-23", time: "00:56", text: "정말 많은것들을 배우고 왔어 ㅋㅋㅋ ㅠ" },
+
+{ date: "2026-01-23", time: "00:56", text: "난 어디가서 말 잘한다고 명함도 못내밀겠구나 싶더라구 ㅋㅋㅋㅋㅋㅋ" },
+
+{ date: "2026-01-23", time: "00:58", text: "좋게 봐줘서 고마웡 ㅎㅎㅎㅎ" },
+
+{ date: "2026-01-23", time: "00:58", text: "아직도 얘기하고싶은게 너무 많은데" },
+
+{ date: "2026-01-23", time: "00:58", text: "스포방지를 위해" },
+
+{ date: "2026-01-23", time: "00:59", text: "다음주꺼 나오고 더 얘기해줄게 ㅋㅋㅋ" },
+
+{ date: "2026-01-23", time: "01:01", text: "ㅋㅋㅋㅋㅋ 진짜 첫 단독 예능 나간다고해서 완전 신나있었다가" },
+
+{ date: "2026-01-23", time: "01:01", text: "기획안 받아보고 걱정x100 됐었어" },
+
+{ date: "2026-01-23", time: "22:56", type: "drive-image", driveId: "1moTeYSnlf04NzP1CNeeXhRCPrVhjPJD5" },
+
+{ date: "2026-01-23", time: "22:56", text: "방금 퇴근하구" },
+
+{ date: "2026-01-23", time: "22:56", text: "갑자기 뮤즈 오프닝때 생각나서 유툽에 영상 찾아봤는데" },
+
+{ date: "2026-01-23", time: "22:57", text: "어부바 보는데 왤케 갑자기 막 울컥하지 ㅋㅋㅋㅋ" },
+
+
+{ date: "2026-01-27", time: "12:24", text: "하이하이~" },
+
+{ date: "2026-01-27", time: "12:45", text: "밥은 먹어서 @@@?" },
+
+{ date: "2026-01-27", time: "22:36", text: "나는 이제 퇴근!!" },
+
+{ date: "2026-01-27", time: "22:36", text: "오랜만에 갑자기 빵이 너무 먹고싶어서" },
+
+{ date: "2026-01-27", time: "22:37", text: "처음으로 배달앱으로 빵 시켰어" },
+
+{ date: "2026-01-27", time: "22:37", text: "ㅋㅋㅋㅋ" },
+
+{ date: "2026-01-27", time: "22:51", type: "drive-image", driveId: "10rMDVHyL7e4e1HlNc75yi9e7EB5Iztbe" },
+
+{ date: "2026-01-27", time: "22:51", text: "며칠전부터 스콘이랑 휘낭시에가" },
+
+{ date: "2026-01-27", time: "22:51", text: "너무 먹구싶더라구 ㅋㅋㅋ" },
+
+{ date: "2026-01-27", time: "22:51", text: "난 좋아하는빵 진짜 많은데" },
+
+{ date: "2026-01-27", time: "22:52", text: "그 중에서 음" },
+
+{ date: "2026-01-27", time: "22:52", text: "스콘, 버터바, 소금빵, 휘낭시에, 마들렌" },
+
+{ date: "2026-01-27", time: "22:52", text: "이렇게 젤 좋아하는거같아" },
+
+{ date: "2026-01-27", time: "22:53", text: "어렸을때는 찹쌀도나스" },
+
+{ date: "2026-01-27", time: "22:53", text: "젤 좋아했어" },
+
+
+{ date: "2026-01-28", time: "11:37", text: "굿모니잉" },
+
+{ date: "2026-01-28", time: "11:56", type: "drive-image", driveId: "1vXzYGIGUrUlZ-_xGb077FGzUUsu2zAqL" },
+
+{ date: "2026-01-28", time: "11:56", text: "오랜만에 푸주옥 ㅋㅋㅋ" },
+
+{ date: "2026-01-28", time: "16:55", type: "drive-image", driveId: "1YEyR7u_nato4tnjazEQp6NKvwFh7Vv7W" },
+
+{ date: "2026-01-28", time: "16:55", type: "drive-image", driveId: "1RhO4c7XsmGvDhqh8MAZ2qAgdk6gL-qLk" },
+
+{ date: "2026-01-28", time: "16:55", text: "두바이 소금빵 첨 먹어보는데" },
+
+{ date: "2026-01-28", time: "16:55", text: "짱 마시어" },
+
+
+{ date: "2026-01-29", time: "22:25", text: "실시간 더 로직 보는중..." },
+
+{ date: "2026-01-29", time: "22:26", type: "drive-image", driveId: "1UUXN7izc_mj8x7gFCNOosdQ76ZIvf31g" },
+
+{ date: "2026-01-29", time: "22:26", text: "나 너무 떨려" },
+
+{ date: "2026-01-29", time: "22:50", text: "으아아악 나 나온다" },
+
+{ date: "2026-01-29", time: "23:03", text: "후" },
+
+{ date: "2026-01-29", time: "23:04", text: "발언권을 너무 뺏긴게 아쉬워 ㅋㅋㅋ" },
+
+{ date: "2026-01-29", time: "23:13", text: "ㅠㅠ 그래도 첫 예능인만큼 더 공부하고 나갈걸.. 아쉬움이 많다 ㅎㅎㅎ" },
+
+
+{ date: "2026-01-31", time: "13:59", text: "하이하이~~" },
+
+{ date: "2026-01-31", time: "13:59", text: "머하구이써~~" },
+
+{ date: "2026-01-31", time: "14:00", text: "나는 점심으로 김밥 먹구이써 ㅎㅎ" },
+
+{ date: "2026-01-31", time: "14:00", text: "마녀김밥이라고 맛살튀김 들어간 김밥인데" },
+
+{ date: "2026-01-31", time: "14:00", text: "진짜 맛있다" },
+
+{ date: "2026-01-31", time: "14:01", text: "오늘 폐밸이라 기대돼" },
+
+{ date: "2026-01-31", time: "14:01", text: "1월 근데 진짜 뭐 많긴 했다 ㅋㅋㅋㅋ" },
+
+{ date: "2026-01-31", time: "14:02", text: "팬미팅 + 일본콘 + 폐밸이틀" },
+
+{ date: "2026-01-31", time: "20:22", type: "drive-image", driveId: "1YaVBc5pENecsgx6h_F-mwFgRhWq9XfZC" },
+
+{ date: "2026-01-31", time: "20:23", text: "무대 끝나고 찍어서 꾀죄죄하다.." },
+
+{ date: "2026-01-31", time: "20:23", text: "구꼬질" },
+
+	{ date: "2025-12-30", time: "23:48", text: "일본 브이로그 사진!" },
+
+{ date: "2025-12-30", time: "23:48", type: "drive-image", driveId: "1OZw5C_NXRWYh2wDANQhkIJg3ZcZA53vY" },
+
+{ date: "2025-12-30", time: "23:48", type: "drive-image", driveId: "1a2epzggaWMcthb7kOOUdvpyjys0FzbSZ" },
+
+{ date: "2025-12-31", time: "13:01", text: "하이하잉" },
+
+{ date: "2025-12-31", time: "13:01", text: "올해 마지막 날이다..." },
+
+{ date: "2026-01-01", time: "00:00", text: "@@@!!!! 새해 복 많이받아 ㅎㅎ!! HAPPY NEW YEAR!!! 2025 힘들었던일 다 털어버리고 2026년은 새로운 마음으로 시작해보자!! 새로운 한해도 쉽지만은 않겠지만 @@@가 다 이겨낼 수 있도록 늘 응원하고 기도할게 ㅎㅎ. 1년동안 엑디즈를, 그리고 나를 좋아해주고 응원해줘서 정말 고마웠어 ㅜㅜ 함께 새로운 추억 많이 만들자!! 내게 주는 사랑 다 배로 갚을게!!!! 싸랑해!!!" },
+
+{ date: "2026-01-01", time: "15:45", type: "drive-image", driveId: "1WSFAwrw0PpqCcXIPl2YQxTGcHexxoklX" },
+
+{ date: "2026-01-01", time: "15:45", type: "drive-image", driveId: "12fWQucIVsfTmzGWfQbgTlathBOZTBSwI" },
+
+{ date: "2026-01-01", time: "15:46", text: "우리 푸 뭔가 키큰거같아" },
+
+{ date: "2026-01-01", time: "15:47", type: "drive-image", driveId: "109qj691NJGl1Ys5cCwu6rH0JhgXk7zRt" },
+
+{ date: "2026-01-01", time: "15:47", type: "drive-image", driveId: "1t0Gj_PtqtdMfy-QeLO2LE0JUerZspRVh" },
+
+{ date: "2026-01-02", time: "17:01", type: "drive-image", driveId: "11i51q9rK_y2HeoPRkagALFqCfXclt8bK" },
+
+{ date: "2026-01-02", time: "17:01", text: "떡국도 먹었다 ㅎㅎ" },
+
+{ date: "2026-01-03", time: "17:46", text: "하이하이!" },
+
+{ date: "2026-01-03", time: "17:46", text: "설렌다아 ㅎㅎ" },
+
+{ date: "2026-01-03", time: "17:46", text: "오늘 재밌는거 진짜 많이 준비했으니까" },
+
+{ date: "2026-01-03", time: "17:46", text: "기대해도돼!" },
+
+{ date: "2026-01-03", time: "23:07", type: "drive-image", driveId: "1rjMwuLZD1af9ea7plwRetojskEXU0Y5_" },
+
+{ date: "2026-01-03", time: "23:07", type: "drive-image", driveId: "1vvI94KvefDc0lGEa0fY6rIddjXSQXYgU" },
+
+{ date: "2026-01-03", time: "23:07", type: "drive-image", driveId: "1D85Y6zYG0RCO6ZAAzFwPIl_8PvUMWpWd" },
+
+{ date: "2026-01-03", time: "23:08", text: "짜잔" },
+
+{ date: "2026-01-03", time: "23:56", type: "drive-image", driveId: "1BO7yWOyxSbPmFvtoEB_9Svd-W54XFzSZ" },
+
+{ date: "2026-01-03", time: "23:56", text: "아까 팬미팅때 하기로한 새해목표 챌린지! ㅋㅋㅋㅋ" },
+
+{ date: "2026-01-03", time: "23:56", text: "진짜 물이야 우하하" },
+
+{ date: "2026-01-03", time: "23:57", text: "ㅋㅋㅋㅋㅋㅋ 티 나도 속아줘..." },
+
+{ date: "2026-01-03", time: "23:57", text: "햄버거랑 감튀는 리얼이야.." },
+
+{ date: "2026-01-03", time: "23:59", text: "사실 점심에도 햄버거 먹었는데" },
+
+{ date: "2026-01-03", time: "23:59", text: "이거 하려고 오는길에 주문했닼ㅋ" },
+
+{ date: "2026-01-04", time: "00:02", type: "drive-image", driveId: "19ZvFfBzntqB8hHB1xiZGEFgciXy5hIEr" },
+
+{ date: "2026-01-04", time: "00:02", text: "원본 ㅋㅋ" },
+
+{ date: "2026-01-05", time: "02:07", type: "drive-image", driveId: "1IghLOn91wHHrUqKLYerJgQhSYdl1GHuo" },
+
+{ date: "2026-01-05", time: "02:07", type: "drive-image", driveId: "1EmZ7QbieCr7oXOfUHqb6P3Syh4oWqk2c" },
+
+{ date: "2026-01-05", time: "02:07", text: "짜잔" },
+
+{ date: "2026-01-05", time: "02:07", text: "오늘도 너무 재밌었다 ㅎㅎ" },
+
+{ date: "2026-01-05", time: "02:07", text: "행복해서" },
+
+{ date: "2026-01-05", time: "18:41", text: "하이하이!" },
+
+{ date: "2026-01-05", time: "18:41", text: "월요일 잘 보내구있어??" },
+
+{ date: "2026-01-05", time: "18:56", type: "drive-image", driveId: "1ejd_T1izfdWlmHKxTKp84lsF036oFlR3" },
+
+{ date: "2026-01-05", time: "18:56", text: "짱이쁘지" },
+
+{ date: "2026-01-09", time: "06:08", text: "굿모닝!" },
+
+{ date: "2026-01-09", time: "06:08", text: "졸리당 ㅋㅋㅋ ㅜ" },
+
+{ date: "2026-01-09", time: "08:16", type: "drive-image", driveId: "1yoTvua1Qm3ngk-v7DdcLVvYV4xd54cZy" },
+
+{ date: "2026-01-09", time: "08:16", text: "잘 다녀오께!" },
 	{ date: "2025-12-24", time: "17:51", text: "하이하이" },
 
 { date: "2025-12-24", time: "17:51", text: "크리스마스 이브인데 @@@ 뭐하구이썽" },

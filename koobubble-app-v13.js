@@ -619,7 +619,7 @@ function render(query="", selectedDate=""){
   row.classList.add("artist-reply-row");
   row.innerHTML=`
     <div class="artist-reply-stack">
-      <div class="bubble artist-reply-source">
+      <div class="artist-reply-source">
         <div class="artist-reply-label">ARTIST의 답장</div>
         <div class="artist-reply-source-text">${highlight(msg.displayReplyTo||"",query)}</div>
       </div>

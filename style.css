@@ -673,72 +673,132 @@ button,input,textarea{font:inherit}
 }
 
 /* =========================
-   ARTIST 답장
+   ARTIST reply
    ========================= */
+
 .artist-reply-row{
-  align-items:flex-end;
+  display:flex;
+  align-items:flex-start;
+  width:100%;
+  min-width:0;
 }
 
+
+/* 답장 UI 전체 */
+
 .artist-reply-stack{
-  width:78%;
+  width:100%;
   min-width:0;
 
   display:flex;
   flex-direction:column;
-  align-items:stretch;
-  gap:7px;
+  align-items:flex-start;
+
+  gap:8px;
 }
 
-/* 위쪽: 답장 대상 원문 */
+
+/* 위쪽: 답장 대상 메시지 */
+
 .artist-reply-source{
-  width:100%;
+  width:78%;
+  max-width:78%;
   box-sizing:border-box;
 
-  padding:13px 13px 14px;
+  padding:14px 15px 15px;
 
   background:#fff;
   border-radius:18px;
 }
 
+
 /* ARTIST의 답장 */
+
 .artist-reply-label{
   margin:0 0 7px;
 
   color:#111;
-  font-size:12px;
-  line-height:1.3;
+
+  font-size:15px;
   font-weight:800;
-  letter-spacing:-.2px;
+  line-height:1.35;
+
+  letter-spacing:-.3px;
 }
 
-/* 답장 대상 원문 */
+
+/* 답장 대상 내용 */
+
 .artist-reply-source-text{
-  color:#8f9296;
-  font-size:15px;
-  line-height:1.48;
+  color:#8d8f92;
+
+  font-size:17px;
   font-weight:400;
-  letter-spacing:-.35px;
+  line-height:1.48;
+
+  letter-spacing:-.4px;
+
+  word-break:keep-all;
+  overflow-wrap:break-word;
+
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:3;
+
+  overflow:hidden;
+}
+
+
+/* 아래쪽: 실제 답장 + 시간 */
+
+.artist-reply-answer-row{
+  width:100%;
+
+  display:flex;
+  align-items:flex-end;
+
+  gap:7px;
+}
+
+
+/* 실제 답장 말풍선 */
+
+.artist-reply-answer-row .bubble{
+  width:78%;
+  max-width:78%;
+
+  box-sizing:border-box;
+
+  padding:13px 15px;
+
+  background:#fff;
+
+  border-radius:18px;
+
+  color:#111;
+
+  font-size:17px;
+  line-height:1.48;
+
+  letter-spacing:-.4px;
 
   white-space:pre-wrap;
   word-break:keep-all;
   overflow-wrap:break-word;
 }
 
-/* 아래쪽: 실제 답장 말풍선과 시간 */
-.artist-reply-answer-row{
-  width:100%;
-  min-width:0;
 
-  display:flex;
-  align-items:flex-end;
-  gap:6px;
-}
-
-.artist-reply-answer-row .bubble{
-  width:fit-content;
-}
+/* 답장 시간 */
 
 .artist-reply-answer-row .time{
   flex:0 0 auto;
-  margin-bottom:2px;
+
+  margin:0 0 4px;
+
+  color:#a0a4a8;
+
+  font-size:11px;
+  line-height:1;
+
+  white-space:nowrap;
 }

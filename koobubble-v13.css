@@ -1300,12 +1300,12 @@ body.poll-detail-open{
 /* 원문 */
 
 .artist-reply-source-text{
-  display:-webkit-box !important;
+  display:block !important;
 
-  -webkit-box-orient:vertical !important;
-  -webkit-line-clamp:3 !important;
+  height:auto !important;
+  max-height:none !important;
 
-  overflow:hidden !important;
+  overflow:visible !important;
 
   color:#8f9296 !important;
 
@@ -1315,8 +1315,12 @@ body.poll-detail-open{
 
   letter-spacing:-.4px !important;
 
+  white-space:pre-wrap !important;
   word-break:keep-all !important;
   overflow-wrap:break-word !important;
+
+  -webkit-line-clamp:unset !important;
+  -webkit-box-orient:initial !important;
 }
 
 

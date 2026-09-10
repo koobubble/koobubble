@@ -9,6 +9,17 @@ const SENDER = {
 };
 
 const MESSAGES = [
+	{ date: "2026-07-25", time: "22:21", type: "drive-image", driveId: "1MjlI1_0Q-8Ks3g5QG4y8hGfFNfsclK6u" },
+{ date: "2026-07-25", time: "22:21", type: "drive-image", driveId: "18Iy3hLNvagF6WpEk2THa_0tvbrHjw5HW" },
+{ date: "2026-07-25", time: "22:21", type: "drive-image", driveId: "1HOjQZdCjAXAjw9t_mANiSMsrxWG5ACpw" },
+{ date: "2026-07-25", time: "22:21", type: "drive-image", driveId: "1aGKuAOp2cijw9ExJ3sOun0dibEtOuk-0" },
+{ date: "2026-07-25", time: "22:21", type: "drive-image", driveId: "1kwJEZWxIZQc1CaJkKXQxUdax87EJ5a4e" },
+{ date: "2026-07-25", time: "22:21", text: "오늘 무대두 짱잼!!!" },
+{ date: "2026-07-25", time: "22:21", text: "중간에 스틱 돌리다 놓쳤는데" },
+{ date: "2026-07-25", time: "22:21", text: "하필 그때 전광판에 잡혔데 ㅋㅋㅋㅋㅋ" },
+{ date: "2026-07-25", time: "22:22", text: "맞춤법 쏘리 오타얌" },
+{ date: "2026-07-25", time: "22:24", text: "올만에 프사 변경 ㅎㅎ" },
+	
 	{ date: "2026-07-08", time: "12:58", text: "Shimmering Scars, Nightshift Superstar 좋아" },
 { date: "2026-07-08", time: "12:58", text: "오늘같은 날씨엔 Shimmering Scars 잘어울려" },
 { date: "2026-07-12", time: "14:10", type: "drive-image", driveId: "1NFaGsU-anv2T3JPAp4Khqd2MOg90qgL2" },

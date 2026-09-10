@@ -1237,4 +1237,138 @@ body.poll-detail-open{
     padding-bottom:env(safe-area-inset-bottom);
   }
 }
+/* =========================
+   ARTIST reply FINAL
+   ========================= */
 
+.artist-reply-row{
+  display:flex !important;
+  align-items:flex-start !important;
+  width:100% !important;
+  min-width:0 !important;
+}
+
+.artist-reply-stack{
+  width:100% !important;
+  min-width:0 !important;
+
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-start !important;
+
+  gap:8px !important;
+}
+
+
+/* 위쪽 답장 대상 카드 */
+
+.artist-reply-source{
+  display:block !important;
+
+  width:78% !important;
+  max-width:78% !important;
+
+  box-sizing:border-box !important;
+
+  padding:14px 15px 15px !important;
+
+  background:#fff !important;
+
+  border-radius:18px !important;
+
+  overflow:hidden !important;
+}
+
+
+/* ARTIST의 답장 */
+
+.artist-reply-label{
+  display:block !important;
+
+  margin:0 0 7px !important;
+
+  color:#111 !important;
+
+  font-size:15px !important;
+  font-weight:800 !important;
+  line-height:1.35 !important;
+
+  letter-spacing:-.3px !important;
+}
+
+
+/* 원문 */
+
+.artist-reply-source-text{
+  display:-webkit-box !important;
+
+  -webkit-box-orient:vertical !important;
+  -webkit-line-clamp:3 !important;
+
+  overflow:hidden !important;
+
+  color:#8f9296 !important;
+
+  font-size:17px !important;
+  font-weight:400 !important;
+  line-height:1.48 !important;
+
+  letter-spacing:-.4px !important;
+
+  word-break:keep-all !important;
+  overflow-wrap:break-word !important;
+}
+
+
+/* 아래 실제 답장 */
+
+.artist-reply-answer-row{
+  display:flex !important;
+
+  width:100% !important;
+
+  align-items:flex-end !important;
+
+  gap:7px !important;
+}
+
+.artist-reply-answer-row .bubble{
+  display:block !important;
+
+  width:78% !important;
+  max-width:78% !important;
+
+  box-sizing:border-box !important;
+
+  padding:13px 15px !important;
+
+  background:#fff !important;
+
+  border-radius:18px !important;
+
+  color:#111 !important;
+
+  font-size:17px !important;
+  line-height:1.48 !important;
+
+  letter-spacing:-.4px !important;
+
+  white-space:pre-wrap !important;
+  word-break:keep-all !important;
+  overflow-wrap:break-word !important;
+}
+
+
+/* 시간 */
+
+.artist-reply-answer-row .time{
+  flex:0 0 auto !important;
+
+  margin:0 0 4px !important;
+
+  color:#a0a4a8 !important;
+
+  font-size:11px !important;
+
+  white-space:nowrap !important;
+}

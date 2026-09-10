@@ -1273,7 +1273,6 @@ body.poll-detail-open{
   padding:14px 15px 15px !important;
 
   background:#fff !important;
-
   border-radius:18px !important;
 
   overflow:hidden !important;
@@ -1297,7 +1296,7 @@ body.poll-detail-open{
 }
 
 
-/* 원문 */
+/* 답장 대상 원문 - 전체 표시 */
 
 .artist-reply-source-text{
   display:block !important;
@@ -1324,7 +1323,7 @@ body.poll-detail-open{
 }
 
 
-/* 아래 실제 답장 */
+/* 아래 실제 아티스트 답장 */
 
 .artist-reply-answer-row{
   display:flex !important;
@@ -1334,7 +1333,19 @@ body.poll-detail-open{
   align-items:flex-end !important;
 
   gap:7px !important;
+
+  height:auto !important;
+  max-height:none !important;
+  overflow:visible !important;
 }
+
+
+/*
+   실제 답장 말풍선은
+   일반 .bubble의 글자크기 / 줄간격 / 패딩을 그대로 사용
+   → PC에서는 일반 채팅과 동일
+   → 모바일에서도 일반 채팅과 동일
+*/
 
 .artist-reply-answer-row .bubble{
   display:block !important;
@@ -1344,18 +1355,21 @@ body.poll-detail-open{
 
   box-sizing:border-box !important;
 
-  padding:13px 15px !important;
-
   background:#fff !important;
-
   border-radius:18px !important;
 
   color:#111 !important;
 
+  height:auto !important;
+  max-height:none !important;
+  overflow:visible !important;
 
   white-space:pre-wrap !important;
   word-break:keep-all !important;
   overflow-wrap:break-word !important;
+
+  -webkit-line-clamp:unset !important;
+  -webkit-box-orient:initial !important;
 }
 
 
@@ -1367,8 +1381,6 @@ body.poll-detail-open{
   margin:0 0 4px !important;
 
   color:#a0a4a8 !important;
-
-  font-size:11px !important;
 
   white-space:nowrap !important;
 }

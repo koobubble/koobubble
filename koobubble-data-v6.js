@@ -9,6 +9,23 @@ const SENDER = {
 };
 
 const MESSAGES = [
+	{date:"2026-08-04",time:"19:02",type:"drive-image",driveId:"15rTlERrYTAAGi3A90DCt3PfykVaZwNXI"},
+{date:"2026-08-04",time:"19:02",type:"text",text:"밥 사진과 함께 생존신고..!"},
+{date:"2026-08-04",time:"19:02",type:"text",text:"진짜 요 며칠 더위먹어서 너무 힘들었다...."},
+{date:"2026-08-05",time:"19:19",type:"drive-image",driveId:"1CIS5L45AFz9ZJtoFxay6_PuzUNR2_lxp"},
+{date:"2026-08-05",time:"19:19",type:"text",text:"하늘 엄청 이쁘다 오늘 ㅎㅎ"},
+{date:"2026-08-07",time:"15:04",type:"drive-image",driveId:"1-z-U5H-gJ509Uonf13yVCFd15bSSl81H"},
+{date:"2026-08-07",time:"15:04",type:"drive-image",driveId:"1Gi55TrqQuL7ykADIlFbINPwx4-vWJnsl"},
+{date:"2026-08-07",time:"15:04",type:"text",text:"여수 도착!"},
+{date:"2026-08-07",time:"21:44",type:"drive-image",driveId:"1esxUARk_G1u5JCFJtAbXk3u8h1p_FMgx"},
+{date:"2026-08-07",time:"21:44",type:"text",text:"짠"},
+{date:"2026-08-09",time:"23:25",type:"drive-image",driveId:"11G9AsfvHBE36oInwQ9qbmcbm107Mi-qz"},
+{date:"2026-08-09",time:"23:25",type:"text",text:"짜잔!"},
+{date:"2026-08-09",time:"23:25",type:"text",text:"이강인 선수 진짜 너무 멋있었어 ㅠㅠ"},
+{date:"2026-08-09",time:"23:26",type:"text",text:"대한민국 축구의 미래!!! 이강인 선수 응원합니다!!!"},
+{date:"2026-08-09",time:"23:26",type:"text",text:"축구 직관 처음가본건데"},
+{date:"2026-08-09",time:"23:26",type:"text",text:"너무 신기하구 재밌었어"},
+{date:"2026-08-09",time:"23:26",type:"text",text:"중계가 없는게 너무 어색했어 ㅋㅋㅋㅋㅋ"},
 	{date:"2026-07-29",time:"19:19",type:"text",text:"애투애 드럼캠 봐써?!"},
 {date:"2026-07-29",time:"19:20",type:"text",text:"몇개 더 올거야 ㅎㅎ 기대해!"},
 {date:"2026-07-31",time:"11:30",type:"text",text:"앙뇽"},
